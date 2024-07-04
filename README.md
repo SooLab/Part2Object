@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 # Usage
 
-# Citing Plain-Det
+# Citing Part2Object
 
 If you find Part2Object useful in your research, please consider citing:
 ```
