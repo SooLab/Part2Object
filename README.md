@@ -6,16 +6,33 @@ By [Cheng Shi](https://chengshiest.github.io/), Yulin Zhang, Bin Yang, [Jiajin T
 The official PyTorch implementation of the "Part2Object: Hierarchical Unsupervised 3D
 Instance Segmentation".
 
-# Main results
-### [ScanNet v2](https://kaldir.vc.in.tum.de/scannet_benchmark/semantic_instance_3d?metric=ap)
+If you find Part2Object useful in your research, please consider citing:
+```
+inproceedings{
+  shi2024Part2Object,
+  title={Part2Object: Hierarchical Unsupervised 3D Instance Segmentation},
+}
+```
 
-| Dataset | AP | AP_50 | AP_25 | Config | Checkpoint :floppy_disk: | Scores :chart_with_upwards_trend: | Visualizations :telescope:
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ScanNet val  | 55.2 | 73.7 | 83.5 | [config](scripts/scannet/scannet_val.sh) | [checkpoint](https://omnomnom.vision.rwth-aachen.de/data/mask3d/checkpoints/scannet/scannet_val.ckpt) | [scores](./docs/detailed_scores/scannet_val.txt) | [visualizations](https://omnomnom.vision.rwth-aachen.de/data/mask3d/visualizations/scannet/val/)
-| ScanNet test | 56.6 | 78.0 | 87.0 | [config](scripts/scannet/scannet_benchmark.sh) | [checkpoint](https://omnomnom.vision.rwth-aachen.de/data/mask3d/checkpoints/scannet/scannet_benchmark.ckpt) | [scores](http://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=1081) | [visualizations](https://omnomnom.vision.rwth-aachen.de/data/mask3d/visualizations/scannet/test/)
+# README structure
+- [Installation](#Installation) - setting up a conda environment
+- [Data Preprocessing](#Data_Preprocessing) - we primarily use the ScanNet dataset, we have to preprocess them to get aligned point clouds and 2D images
+- [Pseudo Mask Generation](#Pseudo_Mask_Generation) - we generate pseudo masks using self-supervised features and extract them for self-training
+- [Self-Training and Data-efficient](#Self-Training) - we mostly follow the training procedure of Mask3D, but we use the pseudo masks, noise robust losses, self-training iterations, and a class-agnostic evaluation
 
-### [S3DIS](http://buildingparser.stanford.edu/dataset.html) (pretrained on ScanNet train+val)
+# Roadmap
+- [ ] Installation
+- [ ] Data download and preprocessing
+- [ ] Upload processed data
+- [ ] Pseudo Mask Generation
+- [ ] Self-Training
+- [ ] Upload pretrained models
+- [ ] Evaluation
+
+
 # Installation
+<div id=Installation>
+
 ### Conda
 
 ```
@@ -32,14 +49,33 @@ cd Part2Object
 pip install -r requirements.txt
 ```
 
-# Usage
+# Data Preprocessing
+<div id=Data_Preprocessing>
 
-# Citing Part2Object
 
-If you find Part2Object useful in your research, please consider citing:
-```
-inproceedings{
-  shi2024Part2Object,
-  title={Part2Object: Hierarchical Unsupervised 3D Instance Segmentation},
-}
-```
+
+
+# Pseudo Mask Generation
+<div id=Pseudo_Mask_Generation>
+
+
+
+| Methods     | AP25 | AP50 | mAP  |            |
+| ----------- | ---- | ---- | ---- | ---------- |
+| Part2Object | 55.1 | 26.8 | 12.6 | [result]() |
+
+
+
+
+# Self-Training and Data-efficient
+<div id=Self-Training>
+
+| Methods     | AP50 / self-training (0% data) | AP50 / 1% data | AP50 / 5% data | AP50 / 10% data | AP50 / 20% data |
+| ----------- | ------------------------------ | -------------- | -------------- | --------------- | --------------- |
+| Part2Object | 32.6                           | 44.1           | 64.2           | 68.0            | 72.1            |
+|             | [weight]()                     | [weight]()     | [weight]()     | [weight]()      | [weight]()      |
+
+
+
+
+
