@@ -4,11 +4,31 @@ import os
 from tqdm import tqdm
 import math
 from multiprocessing import Pool
+import argparse
 
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Train a 3D detector')
+    parser.add_argument('--input', help='processed data dir')
+    parser.add_argument('--dataset', default="train", help='train or val')
+    parser.add_argument('--output', help='directory to save the experiment results')
+    parser.add_argument('--output-processed', 
+                        help='directory to save the experiment results after post processing')
+    args = parser.parse_args()
+
+    return args
+
+args = parse_args()
+
+
+# ================ file path =================
+processed_data_dir = args.input
+dataset = args.dataset # or val
+# ================ file path =================
 
 # ================ config =================
 small_ = 500
-normal_ = 750 # best is 750 on scannet
+normal_ = 750
 large_ = 10000
 
 config = dict(
@@ -18,12 +38,10 @@ config = dict(
     normal_threshold = normal_,
     large_threshold = large_,
 
-    superpoints_dir = "",
-
-    scene_list = sorted(os.listdir("/remote-home/yangbin/projects/SegmentAnything3D/data/val")),
-    # scene_list = ["scene0000_02"],
-    pcd_dir = "/remote-home/yangbin/projects/SegmentAnything3D/data" ,
-    output_dir = f"/remote-home/yangbin/Part2Object/exp/pseudo_label_ablation/k_0.6_no_floor_iou_threshold0.6_post_pre_{small_}_{normal_}_{large_}",
+    superpoints_dir = args.output, # path of result produced by topk_merge.py
+    scene_list = sorted(os.listdir(f"{processed_data_dir}data/{dataset}")),
+    pcd_dir = f"{processed_data_dir}data"  ,
+    output_dir = args.output_processed, # path of result produced by this script
     post_fix = "_layer4_scores.pth",
 )
 # ================ config =================

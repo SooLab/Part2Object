@@ -6,9 +6,20 @@ import math
 from multiprocessing import Pool
 import time
 import pickle
+import argparse
 
+def parse_args():
+    parser = argparse.ArgumentParser(description='Train a 3D detector')
+    parser.add_argument('--input', help='processed data dir')
+    parser.add_argument('--dataset', default="train", help='train or val')
+    parser.add_argument('--output', default="./exp/", help='directory to save the experiment results')
 
+    
+    args = parser.parse_args()
 
+    return args
+
+args = parse_args()
 
 # ================ config =================
 threshold = 0.05
@@ -20,10 +31,8 @@ iou_threshold = 0.6
 
 
 # ================ file path =================
-processed_data_dir = "/remote-home/yangbin/projects/SegmentAnything3D/"
-dataset = "val" # or train
-exp_dir = "/remote-home/yangbin/Part2Object/exp/"
-exp_name = "part2object/"
+processed_data_dir = args.input
+dataset = args.dataset # or val
 # ================ file path =================
 
 
@@ -34,7 +43,7 @@ feat_dir = f"{processed_data_dir}DINO_point_feats"
 distance_martrix_dir = f"{processed_data_dir}dis_matrixes"
 superpoints_dir = f"{processed_data_dir}initial_superpoints2"
 bbox_dir = f"{processed_data_dir}shicheng_data"
-output_dir = f"{exp_dir}{exp_name}k_{topk[0]}_no_floor_iou_threshold{iou_threshold}"
+output_dir = args.output
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -280,37 +289,29 @@ for scan in tqdm(scene_list):
             coord2 = coords[to_marge_mask].mean(axis = 0)
             normal2 = normal[to_marge_mask].mean(axis=0)
 
-            '''
-            is_floor1 = coord1[2] < 0.15 and normal1[0] < 0.15 and normal1[1] < 0.15 and normal1[2] > 0.8
-            is_floor2 = coord2[2] < 0.15 and normal2[0] < 0.15 and normal2[1] < 0.15 and normal2[2] > 0.8
-            
-            if not (is_floor1 ^ is_floor2):
-            '''
-            
-            if True :
 
-                if ori_label != to_marge_label and ori_label not in not_marge:
+            if ori_label != to_marge_label and ori_label not in not_marge:
 
 
-                    if child_labels[marge_i] * b_factor > to_marge_mask.sum() or child_labels[marge_i] == -2:
-                        super_points[to_marge_mask] = ori_label
-                        super_points_ids[super_points_ids == super_points_ids[marge_j]] = ori_label
+                if child_labels[marge_i] * b_factor > to_marge_mask.sum() or child_labels[marge_i] == -2:
+                    super_points[to_marge_mask] = ori_label
+                    super_points_ids[super_points_ids == super_points_ids[marge_j]] = ori_label
 
-                        child_labels[marge_i] = to_marge_mask.sum()
-                        distance_matrix = update_dis_matrix(id_in_dis[marge_i], id_in_dis[marge_j], distance_matrix)
+                    child_labels[marge_i] = to_marge_mask.sum()
+                    distance_matrix = update_dis_matrix(id_in_dis[marge_i], id_in_dis[marge_j], distance_matrix)
 
-                        id_in_dis[id_in_dis >= id_in_dis[marge_j]] -= 1 
-                        id_in_dis[super_points_ids == super_points_ids[marge_j]] = id_in_dis[marge_i]
+                    id_in_dis[id_in_dis >= id_in_dis[marge_j]] -= 1 
+                    id_in_dis[super_points_ids == super_points_ids[marge_j]] = id_in_dis[marge_i]
 
-                        marged_mask = super_points == ori_label
-                        marged_coord = coords[marged_mask]
-                        marged_bbox = np.concatenate((np.min(marged_coord, axis=0), np.max(marged_coord, axis=0)), axis=0).reshape(1, 6)
+                    marged_mask = super_points == ori_label
+                    marged_coord = coords[marged_mask]
+                    marged_bbox = np.concatenate((np.min(marged_coord, axis=0), np.max(marged_coord, axis=0)), axis=0).reshape(1, 6)
 
 
-                        ious = batch_box_iou(marged_bbox, boxes)
-                        if ious.max() > iou_threshold:
-                            not_marge.append(ori_label)
-                            layer_score[layer] += 1
+                    ious = batch_box_iou(marged_bbox, boxes)
+                    if ious.max() > iou_threshold:
+                        not_marge.append(ori_label)
+                        layer_score[layer] += 1
                             
         super_points_save = super_points.copy()
         torch.save(super_points, os.path.join(output_dir,f"{scan}_layer{layer}_scores.pth"))

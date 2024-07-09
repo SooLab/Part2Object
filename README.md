@@ -33,20 +33,49 @@ inproceedings{
 # Installation
 <div id=Installation>
 
-### Conda
+We follow [Mask3D](https://github.com/JonasSchult/Mask3D) to install our environment. 
 
+### Dependencies
+The main dependencies of the project are the following:
+```yaml
+python: 3.10.9
+cuda: 11.3
 ```
-# create conda environment
-conda create -n Part2Object python=3.8 -y
-conda activate Part2Object
+You can set up a conda environment as follows
+```
+# Some users experienced issues on Ubuntu with an AMD CPU
+# Install libopenblas-dev (issue #115, thanks WindWing)
+# sudo apt-get install libopenblas-dev
 
-# install pytorch (other versions may also work)
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+export TORCH_CUDA_ARCH_LIST="6.0 6.1 6.2 7.0 7.2 7.5 8.0 8.6"
 
-# other requirements
-git clone https://github.com/ChengShiest/Part2Object.git
-cd Part2Object
-pip install -r requirements.txt
+conda env create -f environment.yml
+
+conda activate mask3d_cuda113
+
+pip3 install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+pip3 install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
+pip3 install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
+
+mkdir third_party
+cd third_party
+
+git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
+cd MinkowskiEngine
+git checkout 02fc608bea4c0549b0a7b00ca1bf15dee4a0b228
+python setup.py install --force_cuda --blas=openblas
+
+cd ..
+git clone https://github.com/ScanNet/ScanNet.git
+cd ScanNet/Segmentator
+git checkout 3e5726500896748521a6ceb81271b0f5b2c0e7d2
+make
+
+cd ../../pointnet2
+python setup.py install
+
+cd ../../
+pip3 install pytorch-lightning==1.7.2
 ```
 
 # Data Preprocessing
@@ -58,7 +87,30 @@ pip install -r requirements.txt
 # Pseudo Mask Generation
 <div id=Pseudo_Mask_Generation>
 
+### Part2Object : hierarchical clustering
 
+You can obtain the hierarchical clustering results using `topk_merge.py`. To do this, you need to specify the file path to the results produced in the Data Preprocessing section and also specify an output directory.
+
+Here's an example:
+
+```bash
+python topk_merge.py --input /path/to/preprocessed/data --output /path/to/output/directory
+```
+
+Replace `/path/to/preprocessed/data` with the path to your preprocessed data and `/path/to/output/directory` with the path to the directory where you want to save the results.
+
+### Post Processing
+
+You can use `post_pro.py` for post-processing to eliminate noise points. In addition to specifying the `input` and `output` parameters as with `topk_merge.py`, you also need to specify `output-processed` to store the post-processing results. Here's how you can do it:
+
+Here's an example:
+
+```bash
+python post_pro.py --input /path/to/input/data --output /path/to/output/directory --output-processed /path/to/post-processed/results
+```
+Replace `/path/to/input/data` with the path to your input data, `/path/to/output/directory` with the path to the directory where you want to save the intermediate results, and `/path/to/post-processed/results` with the path to the directory where you want to save the post-processing results.
+
+### Main Result and Available Resources 
 
 | Methods     | AP25 | AP50 | mAP  |            |
 | ----------- | ---- | ---- | ---- | ---------- |
