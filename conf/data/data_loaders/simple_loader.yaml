@@ -1,0 +1,24 @@
+# @package data
+
+train_dataloader:
+  _target_: torch.utils.data.DataLoader
+  shuffle: False
+  pin_memory: ${data.pin_memory}
+  num_workers: ${data.num_workers}
+  batch_size: ${data.batch_size}
+  # persistent_workers: True
+
+validation_dataloader:
+  _target_: torch.utils.data.DataLoader
+  shuffle: false
+  pin_memory: ${data.pin_memory}
+  num_workers: ${data.num_workers}
+  batch_size: ${data.test_batch_size}
+  # persistent_workers: True
+test_dataloader:
+  _target_: torch.utils.data.DataLoader
+  shuffle: false
+  pin_memory: ${data.pin_memory}
+  num_workers: ${data.num_workers}
+  batch_size: ${data.test_batch_size}
+  # persistent_workers: True
