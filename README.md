@@ -21,12 +21,12 @@ inproceedings{
 - [Self-Training and Data-efficient](#Self-Training) - we mostly follow the training procedure of Mask3D, but we use the pseudo masks, noise robust losses, self-training iterations, and a class-agnostic evaluation
 
 # Roadmap
-- [ ] Installation
-- [ ] Data download and preprocessing
-- [ ] Upload processed data
+- [x] Installation
+- [ ] Data download and Preprocessing
 - [ ] Pseudo Mask Generation
+- [ ] Upload Pseudo Mask Result
 - [ ] Self-Training
-- [ ] Upload pretrained models
+- [ ] Upload Pretrained Models
 - [ ] Evaluation
 
 
