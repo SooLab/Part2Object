@@ -76,6 +76,8 @@ pip install -r requirements.txt
 |             | [weight]()                     | [weight]()     | [weight]()     | [weight]()      | [weight]()      |
 
 
+## Acknowledgement
 
+We thank [MMDetection](https://github.com/open-mmlab/mmdetection/tree/v2.28.1) for their valuable code bases.
 
 
