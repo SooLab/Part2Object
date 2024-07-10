@@ -1,9 +1,32 @@
 
 # Data Preprocessing
 <div id=Data_Preprocessing>
+Download the ScanNet dataset from here, and move it to ./data
 
+### Apply VCCS Algorithm
 
+```bash
+python vccs/ data_prepare_ScanNet.py --data_path "PATH_TO_RAW_SCANNET_DATASET"
+```
+This code will preprcocess ScanNet and put it under ./data/ScanNet/processed
 
+```bash
+python vccs/ data_prepare_ScanNet.py --data_path "PATH_TO_RAW_SCANNET_DATASET"
+```
+This code will construct init segments on ScanNet and put it under ./data/ScanNet/initial_superpoints
+
+### Get DINO features of Pointclouds
+Download DINO model and put it in ./DINO 
+```bash
+python project_feature.py
+```
+This code will get the DINO features for each point cloud and store them in ./DINO_point_feats
+
+### Get Point Distances 
+```bash
+python get_dis_matrix.py
+```
+This code calculates the shortest distance between the initial segments and stores it in ./dis_matrixes_initseg
 
 # Pseudo Mask Generation
 <div id=Pseudo_Mask_Generation>
