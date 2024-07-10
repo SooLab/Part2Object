@@ -7,12 +7,12 @@ Download the ScanNet dataset from  [here](http://kaldir.vc.in.tum.de/scannet_ben
 ### Apply VCCS Algorithm
 
 ```bash
-python vccs/ data_prepare_ScanNet.py --data_path "PATH_TO_RAW_SCANNET_DATASET"
+python vccs/data_prepare_ScanNet.py --data_path "PATH_TO_RAW_SCANNET_DATASET"
 ```
 This code will preprcocess ScanNet and put it under ./data/ScanNet/processed
 
 ```bash
-python vccs/ data_prepare_ScanNet.py --data_path "PATH_TO_RAW_SCANNET_DATASET"
+python vccs/initialSP_prepare_ScanNet.py
 ```
 This code will construct init segments on ScanNet and put it under ./data/ScanNet/initial_superpoints
 
