@@ -29,6 +29,9 @@ python get_dis_matrix.py
 ```
 This code calculates the shortest distance between the initial segments and stores it in ./dis_matrixes_initseg
 
+### Get Bbox Prior
+
+
 # Pseudo Mask Generation
 <div id=Pseudo_Mask_Generation>
 
