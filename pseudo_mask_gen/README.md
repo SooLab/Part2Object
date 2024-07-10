@@ -1,7 +1,7 @@
 
 # Data Preprocessing
 <div id=Data_Preprocessing>
-Download the ScanNet dataset from [here](http://kaldir.vc.in.tum.de/scannet_benchmark/documentation), and move it to ./data
+Download the ScanNet dataset from [Here](http://kaldir.vc.in.tum.de/scannet_benchmark/documentation) , and move it to ./data
 
 ### Apply VCCS Algorithm
 
