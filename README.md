@@ -51,7 +51,7 @@ export TORCH_CUDA_ARCH_LIST="6.0 6.1 6.2 7.0 7.2 7.5 8.0 8.6"
 
 conda env create -f environment.yml
 
-conda activate mask3d_cuda113
+conda activate part2object
 
 pip3 install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
 pip3 install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
