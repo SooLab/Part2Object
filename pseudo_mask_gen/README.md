@@ -30,6 +30,12 @@ python get_dis_matrix.py
 This code calculates the shortest distance between the initial segments and stores it in ./dis_matrixes_initseg
 
 ### Get Bbox Prior
+```bash
+python get bbox prior/scene_frame_ncut.py --scannet_frames data/Scannetv2/frames_square --immedia_data_dir PATH_TO_STORE_INTERMEDIATE_RESULTS
+
+python get bbox prior/scene_frame_merge.py --immedia_data_dir PATH_TO_STORE_INTERMEDIATE_RESULTS --scannet_frames data/Scannetv2/frames_square --val_data_dir data/Scannetv2 --output_dir DIR_TO_OUTPUT
+```
+This code will calculate Bbox Prior and store it in ./DIR_TO_OUTPUT
 
 
 # Pseudo Mask Generation
