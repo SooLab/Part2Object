@@ -77,7 +77,7 @@ pip3 install pytorch-lightning==1.7.2
 
 | Methods     | AP25 | AP50 | mAP  |            |
 | ----------- | ---- | ---- | ---- | ---------- |
-| Part2Object | 55.1 | 26.8 | 12.6 | [result]() |
+| Part2Object | 55.1 | 26.8 | 12.6 | [result](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) |
 
 
 
@@ -85,11 +85,11 @@ pip3 install pytorch-lightning==1.7.2
 # Self-Training and Data-efficient
 <div id=Self-Training>
 
-You can download our generated pseudo-labels [here]() or generate by yourself with [our code](https://github.com/ChengShiest/Part2Object/tree/main/pseudo_mask_gen).
+You can download our generated pseudo-labels [here](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) or generate by yourself with [our code](https://github.com/ChengShiest/Part2Object/tree/main/pseudo_mask_gen).
 
 | Methods     | AP50 /  (0% data)|  | AP50 / 1% data|   | AP50 / 5% data|   | AP50 / 10% data|   | AP50 / 20% data|   |
 | ----------- | ------------------------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- | --------------- |
-| Part2Object | 32.6           | [weight]()                | 44.1  | [weight]()             | 64.2         | [weight]()     | 68.0        | [weight]()          | 72.1       | [weight]()          |
+| Part2Object | 32.6           | [weight](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing)                | 44.1  | [weight](https://drive.google.com/file/d/16Q7KUbr8GSj0psnYGHQId7TN2k6zuIYr/view?usp=sharing)             | 64.2         | [weight](https://drive.google.com/file/d/1ZaOwSOs9m4QyvlSS779s6JZebBGGjqGo/view?usp=sharing)     | 68.0        | [weight](https://drive.google.com/file/d/1uOOcdTPTir9DxQjlSKjc_zekR5wb_vAu/view?usp=sharing)          | 72.1       | [weight](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing)          |
 
 
 
