@@ -6,13 +6,7 @@ By [Cheng Shi](https://chengshiest.github.io/), Yulin Zhang, Bin Yang, [Jiajin T
 The official PyTorch implementation of the "Part2Object: Hierarchical Unsupervised 3D
 Instance Segmentation".
 
-If you find Part2Object useful in your research, please consider citing:
-```
-inproceedings{
-  shi2024Part2Object,
-  title={Part2Object: Hierarchical Unsupervised 3D Instance Segmentation},
-}
-```
+
 
 # README structure
 - [Installation](#Installation) - setting up a conda environment
@@ -102,3 +96,10 @@ pip3 install pytorch-lightning==1.7.2
 We thank [MMDetection](https://github.com/open-mmlab/mmdetection/tree/v2.28.1) for their valuable code bases.
 
 
+If you find Part2Object useful in your research, please consider citing:
+```
+inproceedings{
+  shi2024Part2Object,
+  title={Part2Object: Hierarchical Unsupervised 3D Instance Segmentation},
+}
+```
