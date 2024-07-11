@@ -85,7 +85,7 @@ pip3 install pytorch-lightning==1.7.2
 # Self-Training and Data-efficient
 <div id=Self-Training>
 
-You can download our generated pseudo-labels [here]().
+You can download our generated pseudo-labels [here]() or generate by yourself with [our code](https://github.com/ChengShiest/Part2Object/tree/main/pseudo_mask_gen).
 
 | Methods     | AP50 /  (0% data)|  | AP50 / 1% data|   | AP50 / 5% data|   | AP50 / 10% data|   | AP50 / 20% data|   |
 | ----------- | ------------------------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- | --------------- |
