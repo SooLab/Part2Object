@@ -85,6 +85,8 @@ pip3 install pytorch-lightning==1.7.2
 # Self-Training and Data-efficient
 <div id=Self-Training>
 
+You can download our generated pseudo-labels [here]().
+
 | Methods     | AP50 /  (0% data)|  | AP50 / 1% data|   | AP50 / 5% data|   | AP50 / 10% data|   | AP50 / 20% data|   |
 | ----------- | ------------------------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- | --------------- |
 | Part2Object | 32.6           | [weight]()                | 44.1  | [weight]()             | 64.2         | [weight]()     | 68.0        | [weight]()          | 72.1       | [weight]()          |
