@@ -72,8 +72,13 @@ cd ../../
 pip3 install pytorch-lightning==1.7.2
 ```
 
+# Train &  Evaluation
+To train or test the results of Part2Object, modify the file paths appropriately and run the following scripts
+```bash
+sh scripts/scannet/scannet_val.sh
+```
 
-### Main Result and Available Resources 
+# Main Result and Available Resources 
 
 | Methods     | AP25 | AP50 | mAP  |            |
 | ----------- | ---- | ---- | ---- | ---------- |
