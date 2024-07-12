@@ -41,11 +41,9 @@ This code will calculate Bbox Prior and store it in ./bbox_prior
 
 1. Create a new directory called `processed_data`:
 
-\```bash
-
+```bash
 mkdir processed_data
-
-\```
+```
 
 2. Move or create a symbolic link to the folders completed in **Data Preprocessing** into the `processed_data` directory.
 
