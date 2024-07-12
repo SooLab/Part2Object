@@ -227,36 +227,7 @@ class InstanceSegmentation(pl.LightningModule):
 
         torch.save(pred_mask, f"pred_masks_scannet/{file_names}.pth")
 
-        # pred_mask_part = np.zeros(pred_masks_part.shape[0])
-        # label = 1
-        # pred_masks_part = torch.filp(pred_masks_part, dim=[1])
-        # for j in range(pred_masks_part.shape[1]):
-        #     pred_mask_part[pred_masks_part[j]] = label
-        #     label += 1
-
-        # torch.save(pred_mask_part, f"pred_masks/{file_names}_layer1.pth")
-
-
-
-        # root_path = f"/public/home/yangbin/projects/mix3d/eval_output_epoch550_v62_part"
-        # base_path = f"{root_path}/instance_evaluation_{self.config.general.experiment_name}_{self.current_epoch}/decoder_{decoder_id}"
-        # pred_mask_path = f"{base_path}/pred_mask"
-
-        # Path(pred_mask_path).mkdir(parents=True, exist_ok=True)
-
-        # file_name = file_names
-        # with open(f"{base_path}/{file_name}.txt", "w") as fout:
-        #     real_id = -1
-        #     for instance_id in range(len(pred_classes)):
-        #         real_id += 1
-        #         pred_class = pred_classes[instance_id]
-        #         score = scores[instance_id]
-        #         mask = pred_masks[:, instance_id].astype("uint8")
-
-        #         if score > self.config.general.export_threshold:
-        #             # reduce the export size a bit. I guess no performance difference
-        #             np.savetxt(f"{pred_mask_path}/{file_name}_{real_id}.txt", mask, fmt="%d")
-        #             fout.write(f"pred_mask/{file_name}_{real_id}.txt {pred_class} {score}\n")
+        
 
     def training_epoch_end(self, outputs):
         train_loss = sum([out["loss"].cpu().item() for out in outputs]) / len(outputs)
@@ -474,7 +445,7 @@ class InstanceSegmentation(pl.LightningModule):
                 print(f"target: {target}")
                 print(f"filenames: {file_names}")
                 raise val_err
-            # exit()
+            
             for k in list(losses.keys()):
                 if k in self.criterion.weight_dict:
                     losses[k] *= self.criterion.weight_dict[k]
@@ -484,16 +455,6 @@ class InstanceSegmentation(pl.LightningModule):
             if self.config.trainer.deterministic:
                 torch.use_deterministic_algorithms(True)
 
-        # print(losses['loss_mask'])
-        # print(losses["loss_dice"])
-        # if losses['loss_mask'] + losses["loss_dice"] > 1.5:
-        #     self.config.general.export = True
-        
-        # output['pred_logits'] = output['pred_part']['pred_logits']
-        # output['pred_masks'] = output['pred_part']['pred_masks']
-
-        # if self.current_epoch > 250:
-        #     self.config.general.export = True
 
 
         if self.config.general.save_visualizations:
@@ -547,89 +508,8 @@ class InstanceSegmentation(pl.LightningModule):
 
         mask_scores_per_image = (heatmap * result_pred_mask).sum(0) / (result_pred_mask.sum(0) + 1e-6)
         score = scores_per_query * mask_scores_per_image
-
-        # print(score.shape)
-        # exit()
-
-        # score = mask_scores_per_image 
-        # obj_score = score[:100]
-        # part_score = score[100:]
-        # obj_mask = result_pred_mask[:, :100]
-        # part_mask = result_pred_mask[:, 100:]
-
-        # part_score = part_score.reshape(5, 100)
-        # part_mask = part_mask.reshape(-1, 5, 100)
-
-        # print(part_score.shape)
-        # print(part_mask.shape)
-        # print((part_score > obj_score).sum())
-        # exit()
-        # mask = part_score < obj_score
-        # mask = mask.reshape(500)
-        # score[100:][mask] = 0
-
-        # score[100:] = 0
-
-
-        # score[score < 0.5] = 0
-        # print(score.shape)
-
-        # score_ = self.scores[0].squeeze(1)
-        # score = score_[topk_indices]
-
-        # score = np.minimum(score, score_)
-        # print(score)
-        # print(score_)
-        # exit()
-
-        # print(self.scores.shape)
-        # print(score.shape)
-        # exit()
-        # print(result_pred_mask.shape)
-        # exit()
-        # score = mask_scores_per_image
-        # score = mask_scores_per_image * (result_pred_mask.sum(dim=0) / result_pred_mask.shape[0])
-
-
-        # print(topk_indices)
-        # ind = self.ind[topk_indices]
-        # score[self.ind] = score[self.ind] + 1
-        # sum = result_pred_mask.sum(dim=0)[self.ind] 
-        # sum_mask = torch.logical_and() (sum > 0) and (sum < 0.04)
-        # score[sum_mask] = score[sum_mask] + 1
-        # with open("sum_raw.txt", 'a') as f:
-        #     for s in sum:
-        #         f.write(str(s.item()) + " ")
-
-        # with open("score.txt", 'a') as f:
-        #     for s in score[self.ind]:
-        #         f.write(str(s.item()) + " ")
-
-        # with open("sum_all.txt", 'a') as f:
-        #     for s in result_pred_mask.sum(dim=0):
-        #         f.write(str(s.item()) + " ")
         
-        
-        # print(sum / result_pred_mask.shape[0])
-        # exit()
-        # print(score)
-        # print(score.shape)
-        # exit()
-        # score = result_pred_mask.sum(dim=0) / result_pred_mask.sum(dim=0)
-        # print(score.shape)
-        # print(score)
-        # score = mask_scores_per_image
         classes = labels_per_query
-
-        # print(score.shape)
-        # print(output['cluster_score'][0].shape)
-        # print(output['cluster_score'][1].shape)
-        # print(output['cluster_score'][2].shape)
-        # print(output['cluster_score'][3].shape)
-        # exit()
-        # score = output['cluster_score'][0].squeeze(0)
-        # print(score.shape)
-        # exit()
 
         return score, result_pred_mask, classes, heatmap
 
@@ -931,11 +811,7 @@ class InstanceSegmentation(pl.LightningModule):
 
         # with threading.Lock():
         if not os.path.exists(base_path):
-            # print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-            # print(base_path)
             os.mkdir(base_path)
-        # print(os.path.exists(base_path))
-        # os.makedirs(base_path, exist_ok=True)
 
         try:
             if self.validation_dataset.dataset_name == "s3dis":
