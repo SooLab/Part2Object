@@ -64,9 +64,9 @@ class Mask3D(nn.Module):
         self.use_np_features = use_np_features
         self.mask_dim = hidden_dim
         self.num_heads = num_heads
-        num_queries = 150
+        num_queries = num_queries
         self.num_queries = num_queries
-        num_queries_part = 300
+        num_queries_part = num_queries * 2
         self.num_queries_part = num_queries_part
         self.pos_enc_type = positional_encoding_type
 
