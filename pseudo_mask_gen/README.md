@@ -33,9 +33,35 @@ This code calculates the shortest distance between the initial segments and stor
 ```bash
 python get bbox prior/scene_frame_ncut.py --scannet_frames data/Scannetv2/frames_square --immedia_data_dir PATH_TO_STORE_INTERMEDIATE_RESULTS
 
-python get bbox prior/scene_frame_merge.py --immedia_data_dir PATH_TO_STORE_INTERMEDIATE_RESULTS --scannet_frames data/Scannetv2/frames_square --val_data_dir data/Scannetv2 --output_dir DIR_TO_OUTPUT
+python get bbox prior/scene_frame_merge.py --immedia_data_dir PATH_TO_STORE_INTERMEDIATE_RESULTS --scannet_frames data/Scannetv2/frames_square --val_data_dir data/Scannetv2 --output_dir bbox_prior
 ```
-This code will calculate Bbox Prior and store it in ./DIR_TO_OUTPUT
+This code will calculate Bbox Prior and store it in ./bbox_prior
+
+### Data Prepare
+
+1. Create a new directory called `processed_data`:
+
+\```bash
+
+mkdir processed_data
+
+\```
+
+2. Move or create a symbolic link to the folders completed in **Data Preprocessing** into the `processed_data` directory.
+
+3. Your directory structure of  `processed_data` should look like this:
+
+```bash
+pseudo_mask_gen/
+├── processed_data/
+│   └── processed/
+│   └── DINO_point_feats/
+│   └── dis_matrixes_initseg/
+│   └── initial_superpoints/
+│   └── bbox_prior/
+├── other_directories_and_files
+```
+
 
 
 # Pseudo Mask Generation
@@ -48,10 +74,10 @@ You can obtain the hierarchical clustering results using `topk_merge.py`. To do 
 Here's an example:
 
 ```bash
-python topk_merge.py --input /path/to/preprocessed/data --output /path/to/output/directory
+python topk_merge.py --input /path/to/processed_data --output /path/to/output/directory
 ```
 
-Replace `/path/to/preprocessed/data` with the path to your preprocessed data and `/path/to/output/directory` with the path to the directory where you want to save the results.
+Replace `/path/to/processed_data` with the path to your preprocessed data and `/path/to/output/directory` with the path to the directory where you want to save the results.
 
 ### Post Processing
 
@@ -60,6 +86,6 @@ You can use `post_pro.py` for post-processing to eliminate noise points. In addi
 Here's an example:
 
 ```bash
-python post_pro.py --input /path/to/input/data --output /path/to/output/directory --output-processed /path/to/post-processed/results
+python post_pro.py --input /path/to/processed_data --output /path/to/output/directory --output-processed /path/to/post_processed/results
 ```
-Replace `/path/to/input/data` with the path to your input data, `/path/to/output/directory` with the path to the directory where you want to save the intermediate results, and `/path/to/post-processed/results` with the path to the directory where you want to save the post-processing results.
+Replace `/path/to/input/data` with the path to your input data, `/path/to/output/directory` with the path to the directory where you want to save the intermediate results, and `/path/to/post_processed/results` with the path to the directory where you want to save the post-processing results.

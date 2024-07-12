@@ -8,7 +8,7 @@ import argparse
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Train a 3D detector')
+    parser = argparse.ArgumentParser(description='cluster')
     parser.add_argument('--input', help='processed data dir')
     parser.add_argument('--dataset', default="train", help='train or val')
     parser.add_argument('--output', help='directory to save the experiment results')
@@ -64,7 +64,6 @@ if not os.path.exists(output_dir):
 
 
 def get_center(cube):
-    # 获取立方体中心点坐标
     x1, y1, z1 = cube[0]
     x2, y2, z2 = cube[1]
     center_x = (x1 + x2) / 2
@@ -73,7 +72,6 @@ def get_center(cube):
     return center_x, center_y, center_z
 
 def get_diagonal_length(cube):
-    # 获取立方体对角线的长度
     x1, y1, z1 = cube[0]
     x2, y2, z2 = cube[1]
     length = ((x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2)**0.5
@@ -83,25 +81,19 @@ def naive_distance(super_point_A, super_point_B):
     # super_point_A:(N, 3)
     # super_point_B:(M, 3)
 
-    # 计算距离矩阵
     distances = np.sqrt(np.sum((super_point_A[:, np.newaxis] - super_point_B) ** 2, axis=2))
-
-    # 对于A中的每个点，找到最小距离
     min_distances = np.min(distances, axis=1)
 
-    # 最小距离即为A中的点到B中的点距离的最小值
     min_distance = np.min(min_distances)
     return min_distance
 
 def bbox_distance(super_point_A, super_point_B):
 
-    # 定义两个立方体的左上角和右下角坐标
+    x1, y2, z2 = np.min(super_point_A, axis=0) 
+    x2, y1, z1 = np.max(super_point_A, axis=0)  
 
-    x1, y2, z2 = np.min(super_point_A, axis=0)  # 最小坐标值
-    x2, y1, z1 = np.max(super_point_A, axis=0)  # 最大坐标值
-
-    x3, y4, z4 = np.min(super_point_B, axis=0)  # 最小坐标值
-    x4, y3, z3 = np.max(super_point_B, axis=0)  # 最大坐标值
+    x3, y4, z4 = np.min(super_point_B, axis=0) 
+    x4, y3, z3 = np.max(super_point_B, axis=0) 
 
     cube1 = [[x1, y1, z1], [x2, y2, z2]]
     cube2 = [[x3, y3, z3], [x4, y4, z4]]
@@ -111,10 +103,8 @@ def bbox_distance(super_point_A, super_point_B):
     center1 = get_center(cube1)
     center2 = get_center(cube2)
 
-    # 计算中心点之间的距离
     distance = ((center1[0] - center2[0])**2 + (center1[1] - center2[1])**2 + (center1[2] - center2[2])**2)**0.5
 
-    # 计算立方体对角线的一半之和
     diagonal_length1 = get_diagonal_length(cube1) / 2
     diagonal_length2 = get_diagonal_length(cube2) / 2
     total_diagonal_length = diagonal_length1 + diagonal_length2
@@ -129,7 +119,6 @@ def calculate_distance(pair):
     mask_A = super_points == super_points_ids[i]
     mask_B = super_points == super_points_ids[j]
     distance = bbox_distance(coords[mask_A], coords[mask_B])
-    # print(i, j)
 
     return (i, j, distance)
 
@@ -175,17 +164,9 @@ for scan in tqdm(scene_list):
             distance_matrix[j, i] = distance
 
         self_mask = np.eye(distance_matrix.shape[0], dtype=bool)
-        # tri_mask = np.tri(distance_matrix.shape[0], distance_matrix.shape[0], k=-1, dtype=bool)
+       
         distance_matrix[self_mask] = np.inf
-        # distance_matrix[tri_mask] = np.inf
 
-            # torch.save(distance_matrix, f"dis_matrixes_true/{scan}_layer{layer}.pth")
-
-        # print(distance_matrix.shape)
-        # print(super_points_ids.shape)
-        # print(super_points_ids)
-
-        # break
 
         for s, super_points_id in enumerate(super_points_ids):
 

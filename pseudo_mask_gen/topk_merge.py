@@ -9,7 +9,7 @@ import pickle
 import argparse
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Train a 3D detector')
+    parser = argparse.ArgumentParser(description='cluster')
     parser.add_argument('--input', help='processed data dir')
     parser.add_argument('--dataset', default="train", help='train or val')
     parser.add_argument('--output', default="./exp/", help='directory to save the experiment results')
@@ -36,13 +36,13 @@ dataset = args.dataset # or val
 # ================ file path =================
 
 
-data_dir = f"{processed_data_dir}data" 
-scene_list = sorted(os.listdir(f"{processed_data_dir}data/{dataset}")) # can set to train
+data_dir = f"{processed_data_dir}processed" 
+scene_list = sorted(os.listdir(f"{processed_data_dir}processed/{dataset}")) # can set to train
 
 feat_dir = f"{processed_data_dir}DINO_point_feats"
-distance_martrix_dir = f"{processed_data_dir}dis_matrixes"
-superpoints_dir = f"{processed_data_dir}initial_superpoints2"
-bbox_dir = f"{processed_data_dir}shicheng_data"
+distance_martrix_dir = f"{processed_data_dir}dis_matrixes_initseg"
+superpoints_dir = f"{processed_data_dir}initial_superpoints"
+bbox_dir = f"{processed_data_dir}bbox_prior"
 output_dir = args.output
 
 if not os.path.exists(output_dir):
