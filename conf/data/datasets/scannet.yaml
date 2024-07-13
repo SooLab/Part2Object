@@ -31,6 +31,10 @@ train_dataset:
   crop_length: ${data.crop_length}
   filter_out_classes: [0, 1]
   label_offset: 2
+  layer0_path: ${data.layer0_path}
+  part_path: ${data.part_path}
+  objrct_path: ${data.objrct_path}
+  df: ${data.df}
 
 validation_dataset:
   _target_: datasets.semseg.SemanticSegmentationDataset
@@ -54,6 +58,10 @@ validation_dataset:
   crop_length: ${data.crop_length}
   filter_out_classes: [0, 1]
   label_offset: 2
+  layer0_path: ${data.layer0_path}
+  part_path: ${data.part_path}
+  objrct_path: ${data.objrct_path}
+  df: ${data.df}
 
 test_dataset:
   _target_: datasets.semseg.SemanticSegmentationDataset
@@ -77,3 +85,7 @@ test_dataset:
   crop_length: ${data.crop_length}
   filter_out_classes: [0, 1]
   label_offset: 2
+  layer0_path: ${data.layer0_path}
+  part_path: ${data.part_path}
+  objrct_path: ${data.objrct_path}
+  df: ${data.df}
