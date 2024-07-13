@@ -73,9 +73,14 @@ pip3 install pytorch-lightning==1.7.2
 ```
 
 # Train &  Evaluation
-To train or test the results of Part2Object, modify the file paths appropriately and run the following scripts
+To train or test the results of Part2Object, modify the file paths appropriately and run the following scripts.
 ```bash
 sh scripts/scannet/scannet_val.sh
+```
+## Train data efficient model
+After getting the base model trained with pseudo-labeling, you can train the data efficient model by modifying the following script appropriately.
+```bash
+sh scripts/scannet/scannet_df.sh
 ```
 
 # Main Result and Available Resources 
