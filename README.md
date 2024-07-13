@@ -9,19 +9,17 @@ Instance Segmentation".
 
 
 # README structure
-- [Installation](#Installation) - setting up a conda environment
-- [Data Preprocessing](#Data_Preprocessing) - we primarily use the ScanNet dataset, we have to preprocess them to get aligned point clouds and 2D images
-- [Pseudo Mask Generation](#Pseudo_Mask_Generation) - we generate pseudo masks using self-supervised features and extract them for self-training
-- [Self-Training and Data-efficient](#Self-Training) - we mostly follow the training procedure of Mask3D, but we use the pseudo masks, noise robust losses, self-training iterations, and a class-agnostic evaluation
+- [Installation](#Installation)
+- [Self-Training and Data-efficient](#Self-Training)
+- [Main Result and Available Resources](#resource)
 
 # Roadmap
 - [x] Installation
 - [x] Data download and Preprocessing
 - [x] Pseudo Mask Generation
-- [ ] Upload Pseudo Mask Result
-- [ ] Self-Training
-- [ ] Upload Pretrained Models
-- [ ] Evaluation
+- [x] Upload Pseudo Mask Result
+- [x] Self-Training
+- [x] Upload Pretrained Models
 
 
 # Installation
@@ -72,22 +70,8 @@ cd ../../
 pip3 install pytorch-lightning==1.7.2
 ```
 
-# Train &  Evaluation
-To train or test the results of Part2Object, modify the file paths appropriately and run the following scripts.
-```bash
-sh scripts/scannet/scannet_val.sh
-```
-## Train data efficient model
-After getting the base model trained with pseudo-labeling, you can train the data efficient model by modifying the following script appropriately.
-```bash
-sh scripts/scannet/scannet_df.sh
-```
 
-# Main Result and Available Resources 
 
-| Methods     | AP25 | AP50 | mAP  |            |
-| ----------- | ---- | ---- | ---- | ---------- |
-| Part2Object | 55.1 | 26.8 | 12.6 | [result](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) |
 
 
 
@@ -96,6 +80,29 @@ sh scripts/scannet/scannet_df.sh
 <div id=Self-Training>
 
 You can download our generated pseudo-labels [here](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) or generate by yourself with [our code](https://github.com/ChengShiest/Part2Object/tree/main/pseudo_mask_gen).
+
+### Train &  Evaluation
+To train or test the results of Part2Object, modify the file paths appropriately and run the following scripts.
+```bash
+sh scripts/scannet/scannet_val.sh
+```
+### Train data efficient model
+After getting the base model trained with pseudo-labeling, you can train the data efficient model by modifying the following script appropriately.
+```bash
+sh scripts/scannet/scannet_df.sh
+```
+
+
+# Main Result and Available Resources 
+<div id=resource>
+
+### Pseudo Label
+| Methods     | AP25 | AP50 | mAP  |            |
+| ----------- | ---- | ---- | ---- | ---------- |
+| Part2Object | 55.1 | 26.8 | 12.6 | [result](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) |
+
+
+# Model
 
 | Methods     | AP50 /  (0% data)|  | AP50 / 1% data|   | AP50 / 5% data|   | AP50 / 10% data|   | AP50 / 20% data|   |
 | ----------- | ------------------------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- | --------------- |

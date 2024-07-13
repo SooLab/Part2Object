@@ -11,5 +11,7 @@ CUDA_VISIBLE_DEVICES=1 python  main_instance_segmentation.py \
 general.experiment_name="train" \
 general.eval_on_segments=true \
 general.train_on_segments=true \
-general.checkpoint="base model path"
+general.checkpoint="base model path" \
 data.df=1
+# data.df represents the percentage of annotated data to be used.
+# It can be set to 1, 5, 10, or 20 to indicate the desired percentage.
