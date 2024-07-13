@@ -1,0 +1,2280 @@
+- color_mean:
+  - 0.4104237939324512
+  - 0.3401862427292089
+  - 0.25857644885440906
+  color_std:
+  - 0.2669884256745084
+  - 0.20097660192154107
+  - 0.1360230409301735
+  file_len: 162573
+  filepath: data/processed/scannet/train/0010_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0010_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0010_00/scene0010_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0010_00/scene0010_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0010_00/scene0010_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0010_00/scene0010_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0010_00/scene0010_00_vh_clean_2.0.010000.segs.json
+  scene: 10
+  scene_type: Office
+  sub_scene: 0
+- color_mean:
+  - 0.3459580638889655
+  - 0.3037983812707692
+  - 0.27364888405048043
+  color_std:
+  - 0.15957150866986233
+  - 0.13224326446107446
+  - 0.11192787867734197
+  file_len: 240937
+  filepath: data/processed/scannet/train/0012_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0012_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0012_00/scene0012_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0012_00/scene0012_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0012_00/scene0012_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0012_00/scene0012_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0012_00/scene0012_00_vh_clean_2.0.010000.segs.json
+  scene: 12
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.17391398245533257
+  - 0.13774712613436293
+  - 0.10148774482397231
+  color_std:
+  - 0.04768679616124041
+  - 0.03019097971204101
+  - 0.01602808775282888
+  file_len: 35772
+  filepath: data/processed/scannet/train/0013_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0013_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0013_01/scene0013_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0013_01/scene0013_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0013_01/scene0013_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0013_01/scene0013_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0013_01/scene0013_01_vh_clean_2.0.010000.segs.json
+  scene: 13
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.4694950684361516
+  - 0.44939612107865545
+  - 0.4107543096636196
+  color_std:
+  - 0.3427068941991342
+  - 0.31560080122944506
+  - 0.2656545891252407
+  file_len: 166252
+  filepath: data/processed/scannet/train/0023_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0023_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0023_00/scene0023_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0023_00/scene0023_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0023_00/scene0023_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0023_00/scene0023_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0023_00/scene0023_00_vh_clean_2.0.010000.segs.json
+  scene: 23
+  scene_type: Misc.
+  sub_scene: 0
+- color_mean:
+  - 0.5357149390149006
+  - 0.493060398018098
+  - 0.4436858119319234
+  color_std:
+  - 0.3533132606870293
+  - 0.30512100745717874
+  - 0.25586206001969125
+  file_len: 163788
+  filepath: data/processed/scannet/train/0026_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0026_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0026_00/scene0026_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0026_00/scene0026_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0026_00/scene0026_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0026_00/scene0026_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0026_00/scene0026_00_vh_clean_2.0.010000.segs.json
+  scene: 26
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.4690729768825896
+  - 0.4517751902183113
+  - 0.4087738013690347
+  color_std:
+  - 0.27876442918648586
+  - 0.2546513003673952
+  - 0.21710227430057896
+  file_len: 235122
+  filepath: data/processed/scannet/train/0031_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0031_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0031_01/scene0031_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0031_01/scene0031_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0031_01/scene0031_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0031_01/scene0031_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0031_01/scene0031_01_vh_clean_2.0.010000.segs.json
+  scene: 31
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.4964491720619585
+  - 0.4616270461960168
+  - 0.4156833596223186
+  color_std:
+  - 0.33617570536287106
+  - 0.3024573687730163
+  - 0.25831847269126784
+  file_len: 71304
+  filepath: data/processed/scannet/train/0035_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0035_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0035_01/scene0035_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0035_01/scene0035_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0035_01/scene0035_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0035_01/scene0035_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0035_01/scene0035_01_vh_clean_2.0.010000.segs.json
+  scene: 35
+  scene_type: Bedroom / Hotel
+  sub_scene: 1
+- color_mean:
+  - 0.4580996813519111
+  - 0.40326185659184977
+  - 0.3699499442672766
+  color_std:
+  - 0.24720009269985946
+  - 0.19673656625878014
+  - 0.1718313194422499
+  file_len: 185268
+  filepath: data/processed/scannet/train/0038_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0038_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0038_00/scene0038_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0038_00/scene0038_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0038_00/scene0038_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0038_00/scene0038_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0038_00/scene0038_00_vh_clean_2.0.010000.segs.json
+  scene: 38
+  scene_type: Bookstore / Library
+  sub_scene: 0
+- color_mean:
+  - 0.38564197206250295
+  - 0.3972238095173666
+  - 0.43775466315241784
+  color_std:
+  - 0.20868987463579947
+  - 0.21803603599636076
+  - 0.26962016480414064
+  file_len: 130427
+  filepath: data/processed/scannet/train/0043_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0043_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0043_00/scene0043_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0043_00/scene0043_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0043_00/scene0043_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0043_00/scene0043_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0043_00/scene0043_00_vh_clean_2.0.010000.segs.json
+  scene: 43
+  scene_type: Hallway
+  sub_scene: 0
+- color_mean:
+  - 0.46314881016863463
+  - 0.43935416892355467
+  - 0.40429651295754654
+  color_std:
+  - 0.29916858440194766
+  - 0.276184726373126
+  - 0.24108149554794178
+  file_len: 65160
+  filepath: data/processed/scannet/train/0053_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0053_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0053_00/scene0053_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0053_00/scene0053_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0053_00/scene0053_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0053_00/scene0053_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0053_00/scene0053_00_vh_clean_2.0.010000.segs.json
+  scene: 53
+  scene_type: Lobby
+  sub_scene: 0
+- color_mean:
+  - 0.506745216575295
+  - 0.4918513162443819
+  - 0.4710998370128909
+  color_std:
+  - 0.32364371974739414
+  - 0.30415647599208606
+  - 0.2820205108478913
+  file_len: 99250
+  filepath: data/processed/scannet/train/0055_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0055_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0055_02/scene0055_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0055_02/scene0055_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0055_02/scene0055_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0055_02/scene0055_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0055_02/scene0055_02_vh_clean_2.0.010000.segs.json
+  scene: 55
+  scene_type: Bedroom / Hotel
+  sub_scene: 2
+- color_mean:
+  - 0.42037729466614043
+  - 0.33383535450925605
+  - 0.25656556487017557
+  color_std:
+  - 0.23262440019736066
+  - 0.16058835289712065
+  - 0.10801441019636397
+  file_len: 123118
+  filepath: data/processed/scannet/train/0060_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0060_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0060_01/scene0060_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0060_01/scene0060_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0060_01/scene0060_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0060_01/scene0060_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0060_01/scene0060_01_vh_clean_2.0.010000.segs.json
+  scene: 60
+  scene_type: Hallway
+  sub_scene: 1
+- color_mean:
+  - 0.4353502580689212
+  - 0.43001804192436327
+  - 0.4231505341629078
+  color_std:
+  - 0.2598698624052793
+  - 0.2489571810030769
+  - 0.2399307472542043
+  file_len: 69783
+  filepath: data/processed/scannet/train/0078_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0078_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_00/scene0078_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_00/scene0078_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_00/scene0078_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_00/scene0078_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_00/scene0078_00_vh_clean_2.0.010000.segs.json
+  scene: 78
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.4681178698613116
+  - 0.4582065868739954
+  - 0.4475709264788515
+  color_std:
+  - 0.28467654481972576
+  - 0.2711569318998026
+  - 0.260138204849005
+  file_len: 80085
+  filepath: data/processed/scannet/train/0078_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0078_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_01/scene0078_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_01/scene0078_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_01/scene0078_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_01/scene0078_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_01/scene0078_01_vh_clean_2.0.010000.segs.json
+  scene: 78
+  scene_type: Bedroom / Hotel
+  sub_scene: 1
+- color_mean:
+  - 0.4391338790962277
+  - 0.4288280526250096
+  - 0.41664702790536295
+  color_std:
+  - 0.259983427413699
+  - 0.24618962760404442
+  - 0.2323716549524537
+  file_len: 85615
+  filepath: data/processed/scannet/train/0078_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0078_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_02/scene0078_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_02/scene0078_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_02/scene0078_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_02/scene0078_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0078_02/scene0078_02_vh_clean_2.0.010000.segs.json
+  scene: 78
+  scene_type: Bedroom / Hotel
+  sub_scene: 2
+- color_mean:
+  - 0.5590523357007928
+  - 0.42541616141618616
+  - 0.29715884250208285
+  color_std:
+  - 0.36204468985990795
+  - 0.23637516039023856
+  - 0.13349519949367394
+  file_len: 38032
+  filepath: data/processed/scannet/train/0080_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0080_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0080_01/scene0080_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0080_01/scene0080_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0080_01/scene0080_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0080_01/scene0080_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0080_01/scene0080_01_vh_clean_2.0.010000.segs.json
+  scene: 80
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.537111408131913
+  - 0.5069577371187095
+  - 0.46892069693596716
+  color_std:
+  - 0.329747121234127
+  - 0.299278154721893
+  - 0.2679441932798445
+  file_len: 26318
+  filepath: data/processed/scannet/train/0083_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0083_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0083_00/scene0083_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0083_00/scene0083_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0083_00/scene0083_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0083_00/scene0083_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0083_00/scene0083_00_vh_clean_2.0.010000.segs.json
+  scene: 83
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.5118203680383913
+  - 0.4779809383608527
+  - 0.3853429455177236
+  color_std:
+  - 0.3177074767870876
+  - 0.2768235412239794
+  - 0.19752898077030973
+  file_len: 109167
+  filepath: data/processed/scannet/train/0089_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0089_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0089_00/scene0089_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0089_00/scene0089_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0089_00/scene0089_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0089_00/scene0089_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0089_00/scene0089_00_vh_clean_2.0.010000.segs.json
+  scene: 89
+  scene_type: Office
+  sub_scene: 0
+- color_mean:
+  - 0.580530603255109
+  - 0.5510662997875506
+  - 0.5030234387626447
+  color_std:
+  - 0.3839502975746957
+  - 0.3576608340348848
+  - 0.31131306077196863
+  file_len: 153836
+  filepath: data/processed/scannet/train/0099_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0099_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0099_00/scene0099_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0099_00/scene0099_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0099_00/scene0099_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0099_00/scene0099_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0099_00/scene0099_00_vh_clean_2.0.010000.segs.json
+  scene: 99
+  scene_type: Misc.
+  sub_scene: 0
+- color_mean:
+  - 0.5226352831739283
+  - 0.48898079035358777
+  - 0.4382488027705452
+  color_std:
+  - 0.3519415835625833
+  - 0.3133309503572232
+  - 0.2602893137784217
+  file_len: 131869
+  filepath: data/processed/scannet/train/0110_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0110_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0110_01/scene0110_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0110_01/scene0110_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0110_01/scene0110_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0110_01/scene0110_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0110_01/scene0110_01_vh_clean_2.0.010000.segs.json
+  scene: 110
+  scene_type: Bedroom / Hotel
+  sub_scene: 1
+- color_mean:
+  - 0.6227434142895051
+  - 0.5520506049324787
+  - 0.45321722063270203
+  color_std:
+  - 0.43200445491301737
+  - 0.3536809643703979
+  - 0.2560066640496043
+  file_len: 47513
+  filepath: data/processed/scannet/train/0119_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0119_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0119_00/scene0119_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0119_00/scene0119_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0119_00/scene0119_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0119_00/scene0119_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0119_00/scene0119_00_vh_clean_2.0.010000.segs.json
+  scene: 119
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.4531729813286126
+  - 0.37223203576491115
+  - 0.26005028638868044
+  color_std:
+  - 0.3034309941182885
+  - 0.22124019602602873
+  - 0.11192967971395382
+  file_len: 91710
+  filepath: data/processed/scannet/train/0121_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0121_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0121_01/scene0121_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0121_01/scene0121_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0121_01/scene0121_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0121_01/scene0121_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0121_01/scene0121_01_vh_clean_2.0.010000.segs.json
+  scene: 121
+  scene_type: Closet
+  sub_scene: 1
+- color_mean:
+  - 0.40519482425338366
+  - 0.3347388279645547
+  - 0.29558369008786306
+  color_std:
+  - 0.22421009580003654
+  - 0.14222109212187645
+  - 0.10908161437306889
+  file_len: 144302
+  filepath: data/processed/scannet/train/0123_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0123_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0123_02/scene0123_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0123_02/scene0123_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0123_02/scene0123_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0123_02/scene0123_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0123_02/scene0123_02_vh_clean_2.0.010000.segs.json
+  scene: 123
+  scene_type: Bookstore / Library
+  sub_scene: 2
+- color_mean:
+  - 0.5320452846740156
+  - 0.5017717997950151
+  - 0.46794336954137966
+  color_std:
+  - 0.3555211700660142
+  - 0.31943140958286814
+  - 0.28582403559953284
+  file_len: 175240
+  filepath: data/processed/scannet/train/0126_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0126_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0126_01/scene0126_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0126_01/scene0126_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0126_01/scene0126_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0126_01/scene0126_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0126_01/scene0126_01_vh_clean_2.0.010000.segs.json
+  scene: 126
+  scene_type: Office
+  sub_scene: 1
+- color_mean:
+  - 0.36452012716437954
+  - 0.2541922159028486
+  - 0.16349049397003512
+  color_std:
+  - 0.1789784133156551
+  - 0.09859963604072515
+  - 0.04769941229900017
+  file_len: 167583
+  filepath: data/processed/scannet/train/0132_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0132_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0132_00/scene0132_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0132_00/scene0132_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0132_00/scene0132_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0132_00/scene0132_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0132_00/scene0132_00_vh_clean_2.0.010000.segs.json
+  scene: 132
+  scene_type: Lobby
+  sub_scene: 0
+- color_mean:
+  - 0.4041012999434807
+  - 0.31820115067460847
+  - 0.24076834340535921
+  color_std:
+  - 0.2110103403858826
+  - 0.14053136320017914
+  - 0.0917255533931034
+  file_len: 135300
+  filepath: data/processed/scannet/train/0134_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0134_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0134_01/scene0134_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0134_01/scene0134_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0134_01/scene0134_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0134_01/scene0134_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0134_01/scene0134_01_vh_clean_2.0.010000.segs.json
+  scene: 134
+  scene_type: Lobby
+  sub_scene: 1
+- color_mean:
+  - 0.5500936960332213
+  - 0.5683354367634994
+  - 0.539191245954183
+  color_std:
+  - 0.3920033072603231
+  - 0.41451889254251356
+  - 0.38214846965826704
+  file_len: 240923
+  filepath: data/processed/scannet/train/0137_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0137_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0137_02/scene0137_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0137_02/scene0137_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0137_02/scene0137_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0137_02/scene0137_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0137_02/scene0137_02_vh_clean_2.0.010000.segs.json
+  scene: 137
+  scene_type: Bedroom / Hotel
+  sub_scene: 2
+- color_mean:
+  - 0.2676049936398253
+  - 0.20667463736998112
+  - 0.1299920481502414
+  color_std:
+  - 0.12908038528057567
+  - 0.08931503424830892
+  - 0.050568853326816994
+  file_len: 270402
+  filepath: data/processed/scannet/train/0143_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0143_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0143_01/scene0143_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0143_01/scene0143_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0143_01/scene0143_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0143_01/scene0143_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0143_01/scene0143_01_vh_clean_2.0.010000.segs.json
+  scene: 143
+  scene_type: Bedroom / Hotel
+  sub_scene: 1
+- color_mean:
+  - 0.39930591534082527
+  - 0.3729123111485194
+  - 0.33160399984558864
+  color_std:
+  - 0.22869365299109431
+  - 0.20331109061346858
+  - 0.1660876860229956
+  file_len: 424636
+  filepath: data/processed/scannet/train/0152_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0152_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0152_02/scene0152_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0152_02/scene0152_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0152_02/scene0152_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0152_02/scene0152_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0152_02/scene0152_02_vh_clean_2.0.010000.segs.json
+  scene: 152
+  scene_type: Living room / Lounge
+  sub_scene: 2
+- color_mean:
+  - 0.38918054774351335
+  - 0.3108745297637764
+  - 0.24780324677520987
+  color_std:
+  - 0.21441669756071957
+  - 0.14894485541128832
+  - 0.10687894158108792
+  file_len: 187828
+  filepath: data/processed/scannet/train/0155_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0155_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0155_01/scene0155_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0155_01/scene0155_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0155_01/scene0155_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0155_01/scene0155_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0155_01/scene0155_01_vh_clean_2.0.010000.segs.json
+  scene: 155
+  scene_type: Bookstore / Library
+  sub_scene: 1
+- color_mean:
+  - 0.3428669287586371
+  - 0.2623395650254383
+  - 0.18789418912668718
+  color_std:
+  - 0.1687421375157023
+  - 0.09902609229721127
+  - 0.05296372237103507
+  file_len: 89536
+  filepath: data/processed/scannet/train/0160_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0160_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_01/scene0160_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_01/scene0160_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_01/scene0160_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_01/scene0160_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_01/scene0160_01_vh_clean_2.0.010000.segs.json
+  scene: 160
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.3208548004121679
+  - 0.2464396526669722
+  - 0.16929354787201656
+  color_std:
+  - 0.14978057061249625
+  - 0.08860955676452557
+  - 0.042256094510579226
+  file_len: 68276
+  filepath: data/processed/scannet/train/0160_03.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0160_03.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_03/scene0160_03.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_03/scene0160_03_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_03/scene0160_03.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_03/scene0160_03_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0160_03/scene0160_03_vh_clean_2.0.010000.segs.json
+  scene: 160
+  scene_type: Living room / Lounge
+  sub_scene: 3
+- color_mean:
+  - 0.38337447762340787
+  - 0.37309675644918655
+  - 0.33421623746324014
+  color_std:
+  - 0.21657449205977103
+  - 0.19932353062352842
+  - 0.15183934615938263
+  file_len: 35218
+  filepath: data/processed/scannet/train/0161_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0161_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0161_01/scene0161_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0161_01/scene0161_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0161_01/scene0161_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0161_01/scene0161_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0161_01/scene0161_01_vh_clean_2.0.010000.segs.json
+  scene: 161
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.5890711807185024
+  - 0.5256851412692155
+  - 0.4598956758181057
+  color_std:
+  - 0.41280760635227093
+  - 0.34866253331714386
+  - 0.2860170319666953
+  file_len: 225624
+  filepath: data/processed/scannet/train/0166_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0166_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_00/scene0166_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_00/scene0166_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_00/scene0166_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_00/scene0166_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_00/scene0166_00_vh_clean_2.0.010000.segs.json
+  scene: 166
+  scene_type: Office
+  sub_scene: 0
+- color_mean:
+  - 0.5678822009196783
+  - 0.5061629549807811
+  - 0.4430946992240871
+  color_std:
+  - 0.3830367203024886
+  - 0.3216175890394143
+  - 0.2626297327763727
+  file_len: 227522
+  filepath: data/processed/scannet/train/0166_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0166_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_02/scene0166_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_02/scene0166_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_02/scene0166_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_02/scene0166_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0166_02/scene0166_02_vh_clean_2.0.010000.segs.json
+  scene: 166
+  scene_type: Office
+  sub_scene: 2
+- color_mean:
+  - 0.6425805683730319
+  - 0.5980518767301597
+  - 0.5598641713626359
+  color_std:
+  - 0.4480118734857622
+  - 0.3896362842415081
+  - 0.34601095882382155
+  file_len: 49093
+  filepath: data/processed/scannet/train/0170_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0170_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0170_02/scene0170_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0170_02/scene0170_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0170_02/scene0170_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0170_02/scene0170_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0170_02/scene0170_02_vh_clean_2.0.010000.segs.json
+  scene: 170
+  scene_type: Bathroom
+  sub_scene: 2
+- color_mean:
+  - 0.626656688828298
+  - 0.5750742234884885
+  - 0.514132593103189
+  color_std:
+  - 0.4914567343184033
+  - 0.43482868872447666
+  - 0.36224454761526537
+  file_len: 132529
+  filepath: data/processed/scannet/train/0171_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0171_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0171_00/scene0171_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0171_00/scene0171_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0171_00/scene0171_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0171_00/scene0171_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0171_00/scene0171_00_vh_clean_2.0.010000.segs.json
+  scene: 171
+  scene_type: Conference Room
+  sub_scene: 0
+- color_mean:
+  - 0.5395847504887271
+  - 0.49708501274133093
+  - 0.4196757584507521
+  color_std:
+  - 0.37152032398836177
+  - 0.31772394214763755
+  - 0.25712257976859754
+  file_len: 108786
+  filepath: data/processed/scannet/train/0172_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0172_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0172_00/scene0172_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0172_00/scene0172_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0172_00/scene0172_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0172_00/scene0172_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0172_00/scene0172_00_vh_clean_2.0.010000.segs.json
+  scene: 172
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.6342924215553791
+  - 0.5729648955619899
+  - 0.4944848848658614
+  color_std:
+  - 0.4728561446613523
+  - 0.404337735047726
+  - 0.3217596110801864
+  file_len: 128762
+  filepath: data/processed/scannet/train/0173_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0173_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0173_01/scene0173_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0173_01/scene0173_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0173_01/scene0173_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0173_01/scene0173_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0173_01/scene0173_01_vh_clean_2.0.010000.segs.json
+  scene: 173
+  scene_type: Classroom
+  sub_scene: 1
+- color_mean:
+  - 0.38894282788773904
+  - 0.38883403804740546
+  - 0.36085653166205206
+  color_std:
+  - 0.21964249084677098
+  - 0.22399078548773318
+  - 0.20656298908649798
+  file_len: 93182
+  filepath: data/processed/scannet/train/0176_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0176_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0176_00/scene0176_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0176_00/scene0176_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0176_00/scene0176_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0176_00/scene0176_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0176_00/scene0176_00_vh_clean_2.0.010000.segs.json
+  scene: 176
+  scene_type: Game room
+  sub_scene: 0
+- color_mean:
+  - 0.5365158990568614
+  - 0.5216510487976908
+  - 0.51547656029641
+  color_std:
+  - 0.32739454948408075
+  - 0.3208598391446556
+  - 0.32301992322968787
+  file_len: 56239
+  filepath: data/processed/scannet/train/0182_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0182_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0182_01/scene0182_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0182_01/scene0182_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0182_01/scene0182_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0182_01/scene0182_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0182_01/scene0182_01_vh_clean_2.0.010000.segs.json
+  scene: 182
+  scene_type: Stairs
+  sub_scene: 1
+- color_mean:
+  - 0.5234262295686348
+  - 0.4716309330914843
+  - 0.40590018746993023
+  color_std:
+  - 0.3465715349029597
+  - 0.2859199427097503
+  - 0.21560532579130748
+  file_len: 85096
+  filepath: data/processed/scannet/train/0192_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0192_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0192_01/scene0192_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0192_01/scene0192_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0192_01/scene0192_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0192_01/scene0192_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0192_01/scene0192_01_vh_clean_2.0.010000.segs.json
+  scene: 192
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.6027049428114432
+  - 0.5440354016965677
+  - 0.47130769889445384
+  color_std:
+  - 0.4053802849545525
+  - 0.3357674669392214
+  - 0.26311251158321197
+  file_len: 82894
+  filepath: data/processed/scannet/train/0195_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0195_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0195_01/scene0195_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0195_01/scene0195_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0195_01/scene0195_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0195_01/scene0195_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0195_01/scene0195_01_vh_clean_2.0.010000.segs.json
+  scene: 195
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.6673863371247014
+  - 0.6328589112383721
+  - 0.5937176653382047
+  color_std:
+  - 0.5397919252138768
+  - 0.4958458536011159
+  - 0.44916205653852825
+  file_len: 97828
+  filepath: data/processed/scannet/train/0197_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0197_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0197_01/scene0197_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0197_01/scene0197_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0197_01/scene0197_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0197_01/scene0197_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0197_01/scene0197_01_vh_clean_2.0.010000.segs.json
+  scene: 197
+  scene_type: Kitchen
+  sub_scene: 1
+- color_mean:
+  - 0.6897022890946503
+  - 0.6570452132756394
+  - 0.6268237677015251
+  color_std:
+  - 0.5320474509349048
+  - 0.49776197794790067
+  - 0.47114133959734544
+  file_len: 124416
+  filepath: data/processed/scannet/train/0229_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0229_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0229_01/scene0229_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0229_01/scene0229_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0229_01/scene0229_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0229_01/scene0229_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0229_01/scene0229_01_vh_clean_2.0.010000.segs.json
+  scene: 229
+  scene_type: Lobby
+  sub_scene: 1
+- color_mean:
+  - 0.3563136990916557
+  - 0.33829522262232736
+  - 0.33290339710489825
+  color_std:
+  - 0.18014893672771978
+  - 0.1697057614558823
+  - 0.17265163160278182
+  file_len: 359497
+  filepath: data/processed/scannet/train/0247_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0247_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0247_00/scene0247_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0247_00/scene0247_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0247_00/scene0247_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0247_00/scene0247_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0247_00/scene0247_00_vh_clean_2.0.010000.segs.json
+  scene: 247
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.5755716205763004
+  - 0.5587519598433908
+  - 0.49282396718853233
+  color_std:
+  - 0.40666893412582156
+  - 0.386208617544975
+  - 0.32094773780088587
+  file_len: 98985
+  filepath: data/processed/scannet/train/0250_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0250_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0250_01/scene0250_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0250_01/scene0250_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0250_01/scene0250_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0250_01/scene0250_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0250_01/scene0250_01_vh_clean_2.0.010000.segs.json
+  scene: 250
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.456431234067855
+  - 0.37219696912308603
+  - 0.3050202611765397
+  color_std:
+  - 0.2745894975881614
+  - 0.1983841619950381
+  - 0.14608195740184185
+  file_len: 147539
+  filepath: data/processed/scannet/train/0253_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0253_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0253_00/scene0253_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0253_00/scene0253_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0253_00/scene0253_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0253_00/scene0253_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0253_00/scene0253_00_vh_clean_2.0.010000.segs.json
+  scene: 253
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.3946205887700759
+  - 0.33054001717335185
+  - 0.2745361316407901
+  color_std:
+  - 0.23058895629505582
+  - 0.17755866834589765
+  - 0.13714989200284614
+  file_len: 71497
+  filepath: data/processed/scannet/train/0255_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0255_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0255_02/scene0255_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0255_02/scene0255_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0255_02/scene0255_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0255_02/scene0255_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0255_02/scene0255_02_vh_clean_2.0.010000.segs.json
+  scene: 255
+  scene_type: Office
+  sub_scene: 2
+- color_mean:
+  - 0.5604559402820878
+  - 0.4482211601277112
+  - 0.21884339495839567
+  color_std:
+  - 0.36648738135388187
+  - 0.2459120671858358
+  - 0.07343518983598285
+  file_len: 54326
+  filepath: data/processed/scannet/train/0260_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0260_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0260_01/scene0260_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0260_01/scene0260_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0260_01/scene0260_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0260_01/scene0260_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0260_01/scene0260_01_vh_clean_2.0.010000.segs.json
+  scene: 260
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.570126589065157
+  - 0.5355184603711307
+  - 0.48732051008598176
+  color_std:
+  - 0.37594366521383515
+  - 0.339373443969842
+  - 0.29419083844747346
+  file_len: 168230
+  filepath: data/processed/scannet/train/0261_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0261_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0261_00/scene0261_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0261_00/scene0261_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0261_00/scene0261_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0261_00/scene0261_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0261_00/scene0261_00_vh_clean_2.0.010000.segs.json
+  scene: 261
+  scene_type: Laundry Room
+  sub_scene: 0
+- color_mean:
+  - 0.4019543242879653
+  - 0.35830036722249525
+  - 0.28849519360763803
+  color_std:
+  - 0.25696134491389916
+  - 0.2134122792357692
+  - 0.15744696112527037
+  file_len: 117768
+  filepath: data/processed/scannet/train/0272_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0272_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0272_01/scene0272_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0272_01/scene0272_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0272_01/scene0272_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0272_01/scene0272_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0272_01/scene0272_01_vh_clean_2.0.010000.segs.json
+  scene: 272
+  scene_type: Office
+  sub_scene: 1
+- color_mean:
+  - 0.5489101240939744
+  - 0.4965592762204785
+  - 0.43583517355254686
+  color_std:
+  - 0.3601435363136312
+  - 0.3007570215562096
+  - 0.24616713578701052
+  file_len: 274264
+  filepath: data/processed/scannet/train/0276_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0276_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0276_00/scene0276_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0276_00/scene0276_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0276_00/scene0276_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0276_00/scene0276_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0276_00/scene0276_00_vh_clean_2.0.010000.segs.json
+  scene: 276
+  scene_type: Apartment
+  sub_scene: 0
+- color_mean:
+  - 0.4676431963630075
+  - 0.4147826581004767
+  - 0.35497484915222727
+  color_std:
+  - 0.27678382327851064
+  - 0.2163263404572741
+  - 0.16285510140348966
+  file_len: 157372
+  filepath: data/processed/scannet/train/0286_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0286_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0286_02/scene0286_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0286_02/scene0286_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0286_02/scene0286_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0286_02/scene0286_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0286_02/scene0286_02_vh_clean_2.0.010000.segs.json
+  scene: 286
+  scene_type: Bedroom / Hotel
+  sub_scene: 2
+- color_mean:
+  - 0.3707018037120298
+  - 0.36272222065340926
+  - 0.35370537937785784
+  color_std:
+  - 0.20471726415129696
+  - 0.19681583349737658
+  - 0.1917994855432921
+  file_len: 95822
+  filepath: data/processed/scannet/train/0287_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0287_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0287_00/scene0287_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0287_00/scene0287_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0287_00/scene0287_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0287_00/scene0287_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0287_00/scene0287_00_vh_clean_2.0.010000.segs.json
+  scene: 287
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.32709357524312266
+  - 0.28383492597935683
+  - 0.23082013875331603
+  color_std:
+  - 0.1678199337846224
+  - 0.1353106089353259
+  - 0.10821182405052505
+  file_len: 116005
+  filepath: data/processed/scannet/train/0289_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0289_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0289_00/scene0289_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0289_00/scene0289_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0289_00/scene0289_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0289_00/scene0289_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0289_00/scene0289_00_vh_clean_2.0.010000.segs.json
+  scene: 289
+  scene_type: Conference Room
+  sub_scene: 0
+- color_mean:
+  - 0.30400853691744917
+  - 0.37320650840010783
+  - 0.4142714668968345
+  color_std:
+  - 0.16120691276661075
+  - 0.22815433324095757
+  - 0.2810341665921498
+  file_len: 239348
+  filepath: data/processed/scannet/train/0291_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0291_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0291_01/scene0291_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0291_01/scene0291_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0291_01/scene0291_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0291_01/scene0291_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0291_01/scene0291_01_vh_clean_2.0.010000.segs.json
+  scene: 291
+  scene_type: Conference Room
+  sub_scene: 1
+- color_mean:
+  - 0.835883240131304
+  - 0.8277756402065152
+  - 0.8388377950524913
+  color_std:
+  - 0.7322325621608377
+  - 0.7197845034698354
+  - 0.7367274836491257
+  file_len: 83321
+  filepath: data/processed/scannet/train/0292_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0292_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0292_00/scene0292_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0292_00/scene0292_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0292_00/scene0292_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0292_00/scene0292_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0292_00/scene0292_00_vh_clean_2.0.010000.segs.json
+  scene: 292
+  scene_type: Lobby
+  sub_scene: 0
+- color_mean:
+  - 0.41483528000088854
+  - 0.29497019417231074
+  - 0.19487609439214754
+  color_std:
+  - 0.22840779874259964
+  - 0.12864306666970446
+  - 0.06845645142174167
+  file_len: 164177
+  filepath: data/processed/scannet/train/0301_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0301_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_00/scene0301_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_00/scene0301_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_00/scene0301_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_00/scene0301_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_00/scene0301_00_vh_clean_2.0.010000.segs.json
+  scene: 301
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.40823587388499305
+  - 0.2887351483396077
+  - 0.18243873559431448
+  color_std:
+  - 0.2164749714688116
+  - 0.11805452956738594
+  - 0.05550322521273521
+  file_len: 140692
+  filepath: data/processed/scannet/train/0301_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0301_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_02/scene0301_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_02/scene0301_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_02/scene0301_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_02/scene0301_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0301_02/scene0301_02_vh_clean_2.0.010000.segs.json
+  scene: 301
+  scene_type: Living room / Lounge
+  sub_scene: 2
+- color_mean:
+  - 0.5357859960552268
+  - 0.5103437753799746
+  - 0.48710950612986814
+  color_std:
+  - 0.36254978861869985
+  - 0.32996075200935465
+  - 0.306950881507416
+  file_len: 202800
+  filepath: data/processed/scannet/train/0305_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0305_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0305_01/scene0305_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0305_01/scene0305_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0305_01/scene0305_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0305_01/scene0305_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0305_01/scene0305_01_vh_clean_2.0.010000.segs.json
+  scene: 305
+  scene_type: Office
+  sub_scene: 1
+- color_mean:
+  - 0.548531612645058
+  - 0.5174426103774843
+  - 0.4850043684140323
+  color_std:
+  - 0.3627691832288471
+  - 0.32495428668199305
+  - 0.2928375848378567
+  file_len: 117600
+  filepath: data/processed/scannet/train/0310_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0310_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0310_02/scene0310_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0310_02/scene0310_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0310_02/scene0310_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0310_02/scene0310_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0310_02/scene0310_02_vh_clean_2.0.010000.segs.json
+  scene: 310
+  scene_type: Kitchen
+  sub_scene: 2
+- color_mean:
+  - 0.5164447738389792
+  - 0.40311632061236985
+  - 0.33278706543675807
+  color_std:
+  - 0.3240736801619309
+  - 0.21479758838486307
+  - 0.15928999136196367
+  file_len: 257950
+  filepath: data/processed/scannet/train/0312_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0312_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0312_01/scene0312_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0312_01/scene0312_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0312_01/scene0312_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0312_01/scene0312_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0312_01/scene0312_01_vh_clean_2.0.010000.segs.json
+  scene: 312
+  scene_type: Lobby
+  sub_scene: 1
+- color_mean:
+  - 0.47415066856832316
+  - 0.46984541225391346
+  - 0.5090569604946514
+  color_std:
+  - 0.3023811807777495
+  - 0.29883600914464
+  - 0.35335743544175985
+  file_len: 170584
+  filepath: data/processed/scannet/train/0320_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0320_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0320_01/scene0320_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0320_01/scene0320_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0320_01/scene0320_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0320_01/scene0320_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0320_01/scene0320_01_vh_clean_2.0.010000.segs.json
+  scene: 320
+  scene_type: Bookstore / Library
+  sub_scene: 1
+- color_mean:
+  - 0.42140449255348333
+  - 0.35062522743830377
+  - 0.2843804611194602
+  color_std:
+  - 0.2260657984983996
+  - 0.17401705354756777
+  - 0.13247964031157536
+  file_len: 80123
+  filepath: data/processed/scannet/train/0322_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0322_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0322_00/scene0322_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0322_00/scene0322_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0322_00/scene0322_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0322_00/scene0322_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0322_00/scene0322_00_vh_clean_2.0.010000.segs.json
+  scene: 322
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.579890500922831
+  - 0.5489662761854814
+  - 0.5014169141916185
+  color_std:
+  - 0.420251975891159
+  - 0.3835112162579763
+  - 0.3290095942170425
+  file_len: 97356
+  filepath: data/processed/scannet/train/0324_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0324_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0324_01/scene0324_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0324_01/scene0324_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0324_01/scene0324_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0324_01/scene0324_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0324_01/scene0324_01_vh_clean_2.0.010000.segs.json
+  scene: 324
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.5384224547547544
+  - 0.48353732473708216
+  - 0.4244881625701334
+  color_std:
+  - 0.35346947596149575
+  - 0.2910274418581856
+  - 0.23674969692182912
+  file_len: 78055
+  filepath: data/processed/scannet/train/0347_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0347_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0347_02/scene0347_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0347_02/scene0347_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0347_02/scene0347_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0347_02/scene0347_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0347_02/scene0347_02_vh_clean_2.0.010000.segs.json
+  scene: 347
+  scene_type: Kitchen
+  sub_scene: 2
+- color_mean:
+  - 0.6128264422962497
+  - 0.5747360630300908
+  - 0.4963121377608563
+  color_std:
+  - 0.47015895855143947
+  - 0.42645121251183954
+  - 0.33606595631329633
+  file_len: 51078
+  filepath: data/processed/scannet/train/0349_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0349_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_00/scene0349_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_00/scene0349_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_00/scene0349_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_00/scene0349_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_00/scene0349_00_vh_clean_2.0.010000.segs.json
+  scene: 349
+  scene_type: Laundry Room
+  sub_scene: 0
+- color_mean:
+  - 0.6184384389082606
+  - 0.5824661072248308
+  - 0.5003266561453531
+  color_std:
+  - 0.47582036763652963
+  - 0.4341839601953482
+  - 0.33853243181396003
+  file_len: 60158
+  filepath: data/processed/scannet/train/0349_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0349_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_01/scene0349_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_01/scene0349_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_01/scene0349_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_01/scene0349_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0349_01/scene0349_01_vh_clean_2.0.010000.segs.json
+  scene: 349
+  scene_type: Laundry Room
+  sub_scene: 1
+- color_mean:
+  - 0.5176146766778945
+  - 0.4861327460448604
+  - 0.48430334936876424
+  color_std:
+  - 0.3501025153167956
+  - 0.32119347115111446
+  - 0.30985069498778145
+  file_len: 90706
+  filepath: data/processed/scannet/train/0361_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0361_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0361_01/scene0361_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0361_01/scene0361_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0361_01/scene0361_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0361_01/scene0361_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0361_01/scene0361_01_vh_clean_2.0.010000.segs.json
+  scene: 361
+  scene_type: Bookstore / Library
+  sub_scene: 1
+- color_mean:
+  - 0.4118628679689639
+  - 0.3887068154987027
+  - 0.35339122068728945
+  color_std:
+  - 0.23799635733087968
+  - 0.21595174078925328
+  - 0.1878763617113288
+  file_len: 116494
+  filepath: data/processed/scannet/train/0367_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0367_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0367_01/scene0367_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0367_01/scene0367_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0367_01/scene0367_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0367_01/scene0367_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0367_01/scene0367_01_vh_clean_2.0.010000.segs.json
+  scene: 367
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.4256084499088049
+  - 0.42946744522016217
+  - 0.423556803605371
+  color_std:
+  - 0.2585196674360539
+  - 0.2553175803043064
+  - 0.24643741074188416
+  file_len: 153044
+  filepath: data/processed/scannet/train/0369_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0369_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0369_02/scene0369_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0369_02/scene0369_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0369_02/scene0369_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0369_02/scene0369_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0369_02/scene0369_02_vh_clean_2.0.010000.segs.json
+  scene: 369
+  scene_type: Office
+  sub_scene: 2
+- color_mean:
+  - 0.6619804650484729
+  - 0.6182369409280991
+  - 0.4325858703663208
+  color_std:
+  - 0.5361256135771714
+  - 0.4822081029532324
+  - 0.27226590806457
+  file_len: 145260
+  filepath: data/processed/scannet/train/0404_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0404_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0404_00/scene0404_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0404_00/scene0404_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0404_00/scene0404_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0404_00/scene0404_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0404_00/scene0404_00_vh_clean_2.0.010000.segs.json
+  scene: 404
+  scene_type: Closet
+  sub_scene: 0
+- color_mean:
+  - 0.4299391125584245
+  - 0.3681173498265619
+  - 0.28469449898972654
+  color_std:
+  - 0.27594401542929325
+  - 0.22181582708561448
+  - 0.1601560787704288
+  file_len: 217035
+  filepath: data/processed/scannet/train/0416_04.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0416_04.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0416_04/scene0416_04.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0416_04/scene0416_04_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0416_04/scene0416_04.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0416_04/scene0416_04_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0416_04/scene0416_04_vh_clean_2.0.010000.segs.json
+  scene: 416
+  scene_type: Bedroom / Hotel
+  sub_scene: 4
+- color_mean:
+  - 0.46373929582784673
+  - 0.43155007518180083
+  - 0.35601091438152616
+  color_std:
+  - 0.29227037563362374
+  - 0.2598119688444096
+  - 0.19129883087683014
+  file_len: 122357
+  filepath: data/processed/scannet/train/0421_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0421_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_01/scene0421_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_01/scene0421_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_01/scene0421_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_01/scene0421_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_01/scene0421_01_vh_clean_2.0.010000.segs.json
+  scene: 421
+  scene_type: Laundry Room
+  sub_scene: 1
+- color_mean:
+  - 0.45195488677281603
+  - 0.42546050832161436
+  - 0.348388530955368
+  color_std:
+  - 0.28146080483202773
+  - 0.2548612709999457
+  - 0.18501599274328986
+  file_len: 122517
+  filepath: data/processed/scannet/train/0421_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0421_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_02/scene0421_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_02/scene0421_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_02/scene0421_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_02/scene0421_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0421_02/scene0421_02_vh_clean_2.0.010000.segs.json
+  scene: 421
+  scene_type: Laundry Room
+  sub_scene: 2
+- color_mean:
+  - 0.7192280442047093
+  - 0.693980530801486
+  - 0.5699749238819185
+  color_std:
+  - 0.5650471514801785
+  - 0.5360210697015989
+  - 0.39168650235191754
+  file_len: 35922
+  filepath: data/processed/scannet/train/0434_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0434_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_00/scene0434_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_00/scene0434_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_00/scene0434_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_00/scene0434_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_00/scene0434_00_vh_clean_2.0.010000.segs.json
+  scene: 434
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.7370597517759542
+  - 0.7121028060346946
+  - 0.5843375322838688
+  color_std:
+  - 0.5882282617132776
+  - 0.5583337270083663
+  - 0.40395172903851756
+  file_len: 35910
+  filepath: data/processed/scannet/train/0434_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0434_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_01/scene0434_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_01/scene0434_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_01/scene0434_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_01/scene0434_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0434_01/scene0434_01_vh_clean_2.0.010000.segs.json
+  scene: 434
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.8204093841047208
+  - 0.6565351670706245
+  - 0.3762008683975925
+  color_std:
+  - 0.7276029896602898
+  - 0.494538044748354
+  - 0.18250824846087907
+  file_len: 100889
+  filepath: data/processed/scannet/train/0439_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0439_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0439_01/scene0439_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0439_01/scene0439_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0439_01/scene0439_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0439_01/scene0439_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0439_01/scene0439_01_vh_clean_2.0.010000.segs.json
+  scene: 439
+  scene_type: Kitchen
+  sub_scene: 1
+- color_mean:
+  - 0.14346010579688032
+  - 0.11193563324223992
+  - 0.08969027334280846
+  color_std:
+  - 0.04720961876591929
+  - 0.03090121105779439
+  - 0.02312103991420761
+  file_len: 109885
+  filepath: data/processed/scannet/train/0443_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0443_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0443_00/scene0443_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0443_00/scene0443_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0443_00/scene0443_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0443_00/scene0443_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0443_00/scene0443_00_vh_clean_2.0.010000.segs.json
+  scene: 443
+  scene_type: Misc.
+  sub_scene: 0
+- color_mean:
+  - 0.47913946366918675
+  - 0.4487030075479121
+  - 0.4581455648852478
+  color_std:
+  - 0.3078251123221276
+  - 0.27721600693238146
+  - 0.2949563632865992
+  file_len: 50636
+  filepath: data/processed/scannet/train/0447_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0447_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0447_00/scene0447_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0447_00/scene0447_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0447_00/scene0447_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0447_00/scene0447_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0447_00/scene0447_00_vh_clean_2.0.010000.segs.json
+  scene: 447
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.5993477824715703
+  - 0.491810728125941
+  - 0.3568713807826983
+  color_std:
+  - 0.4156422780612074
+  - 0.2879440763804996
+  - 0.16289622033117368
+  file_len: 52677
+  filepath: data/processed/scannet/train/0449_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0449_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0449_02/scene0449_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0449_02/scene0449_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0449_02/scene0449_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0449_02/scene0449_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0449_02/scene0449_02_vh_clean_2.0.010000.segs.json
+  scene: 449
+  scene_type: Bathroom
+  sub_scene: 2
+- color_mean:
+  - 0.3921782122114792
+  - 0.3473276660960083
+  - 0.2954328212924975
+  color_std:
+  - 0.21360175472940549
+  - 0.1813483077275156
+  - 0.14916416240123534
+  file_len: 283058
+  filepath: data/processed/scannet/train/0451_04.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0451_04.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0451_04/scene0451_04.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0451_04/scene0451_04_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0451_04/scene0451_04.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0451_04/scene0451_04_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0451_04/scene0451_04_vh_clean_2.0.010000.segs.json
+  scene: 451
+  scene_type: Dining Room
+  sub_scene: 4
+- color_mean:
+  - 0.6426555581304021
+  - 0.4693643119770614
+  - 0.4149518187591613
+  color_std:
+  - 0.44662439836765794
+  - 0.28033168025272426
+  - 0.24008139154837724
+  file_len: 169564
+  filepath: data/processed/scannet/train/0466_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0466_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0466_00/scene0466_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0466_00/scene0466_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0466_00/scene0466_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0466_00/scene0466_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0466_00/scene0466_00_vh_clean_2.0.010000.segs.json
+  scene: 466
+  scene_type: Classroom
+  sub_scene: 0
+- color_mean:
+  - 0.5578306166853949
+  - 0.4176562125172026
+  - 0.3067273335605974
+  color_std:
+  - 0.35370102711993734
+  - 0.21215169236261353
+  - 0.12520019460212234
+  file_len: 37272
+  filepath: data/processed/scannet/train/0471_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0471_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0471_00/scene0471_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0471_00/scene0471_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0471_00/scene0471_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0471_00/scene0471_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0471_00/scene0471_00_vh_clean_2.0.010000.segs.json
+  scene: 471
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.5156676904719302
+  - 0.4337976753293487
+  - 0.3402393965893241
+  color_std:
+  - 0.32193681836366767
+  - 0.2361178411162368
+  - 0.15849465227863416
+  file_len: 227161
+  filepath: data/processed/scannet/train/0472_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0472_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0472_02/scene0472_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0472_02/scene0472_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0472_02/scene0472_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0472_02/scene0472_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0472_02/scene0472_02_vh_clean_2.0.010000.segs.json
+  scene: 472
+  scene_type: Apartment
+  sub_scene: 2
+- color_mean:
+  - 0.46105858366609453
+  - 0.40676802857912436
+  - 0.36753253392001545
+  color_std:
+  - 0.27193140317766085
+  - 0.21504605745778888
+  - 0.18089287481428615
+  file_len: 79784
+  filepath: data/processed/scannet/train/0478_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0478_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0478_00/scene0478_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0478_00/scene0478_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0478_00/scene0478_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0478_00/scene0478_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0478_00/scene0478_00_vh_clean_2.0.010000.segs.json
+  scene: 478
+  scene_type: Copy/Mail Room
+  sub_scene: 0
+- color_mean:
+  - 0.3066821379170191
+  - 0.3048571859368956
+  - 0.2922622770271599
+  color_std:
+  - 0.15466828243284256
+  - 0.15867269320456567
+  - 0.15460663034856204
+  file_len: 119640
+  filepath: data/processed/scannet/train/0489_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0489_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0489_02/scene0489_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0489_02/scene0489_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0489_02/scene0489_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0489_02/scene0489_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0489_02/scene0489_02_vh_clean_2.0.010000.segs.json
+  scene: 489
+  scene_type: Bookstore / Library
+  sub_scene: 2
+- color_mean:
+  - 0.3709141626674035
+  - 0.33496308194446645
+  - 0.2772514761874431
+  color_std:
+  - 0.21392287071930652
+  - 0.18291146630839755
+  - 0.1393888384175311
+  file_len: 122829
+  filepath: data/processed/scannet/train/0492_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0492_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_00/scene0492_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_00/scene0492_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_00/scene0492_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_00/scene0492_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_00/scene0492_00_vh_clean_2.0.010000.segs.json
+  scene: 492
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.38320359746248817
+  - 0.3477020981490898
+  - 0.2909834941334535
+  color_std:
+  - 0.22777070692139825
+  - 0.19740860122007184
+  - 0.15432258504492055
+  file_len: 132237
+  filepath: data/processed/scannet/train/0492_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0492_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_01/scene0492_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_01/scene0492_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_01/scene0492_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_01/scene0492_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0492_01/scene0492_01_vh_clean_2.0.010000.segs.json
+  scene: 492
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.4892020599922659
+  - 0.4307073207425767
+  - 0.3526400697435853
+  color_std:
+  - 0.3228175472383593
+  - 0.2634914919146747
+  - 0.20105836572237507
+  file_len: 109218
+  filepath: data/processed/scannet/train/0493_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0493_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0493_01/scene0493_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0493_01/scene0493_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0493_01/scene0493_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0493_01/scene0493_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0493_01/scene0493_01_vh_clean_2.0.010000.segs.json
+  scene: 493
+  scene_type: Conference Room
+  sub_scene: 1
+- color_mean:
+  - 0.5692939930970555
+  - 0.47798347157585297
+  - 0.3850234609092628
+  color_std:
+  - 0.3944463981699854
+  - 0.2891443691868739
+  - 0.1978272864040631
+  file_len: 98236
+  filepath: data/processed/scannet/train/0501_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0501_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0501_01/scene0501_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0501_01/scene0501_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0501_01/scene0501_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0501_01/scene0501_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0501_01/scene0501_01_vh_clean_2.0.010000.segs.json
+  scene: 501
+  scene_type: Bathroom
+  sub_scene: 1
+- color_mean:
+  - 0.5586654476027407
+  - 0.5233720547430476
+  - 0.48870882896886997
+  color_std:
+  - 0.39270827428500277
+  - 0.3489751677607925
+  - 0.3114973091405218
+  file_len: 275943
+  filepath: data/processed/scannet/train/0505_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0505_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_02/scene0505_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_02/scene0505_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_02/scene0505_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_02/scene0505_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_02/scene0505_02_vh_clean_2.0.010000.segs.json
+  scene: 505
+  scene_type: Office
+  sub_scene: 2
+- color_mean:
+  - 0.42111688003782155
+  - 0.40465079303349377
+  - 0.398020629756885
+  color_std:
+  - 0.24962982007237072
+  - 0.23268784446500498
+  - 0.2271922540265173
+  file_len: 251086
+  filepath: data/processed/scannet/train/0505_04.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0505_04.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_04/scene0505_04.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_04/scene0505_04_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_04/scene0505_04.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_04/scene0505_04_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0505_04/scene0505_04_vh_clean_2.0.010000.segs.json
+  scene: 505
+  scene_type: Office
+  sub_scene: 4
+- color_mean:
+  - 0.6869339936932899
+  - 0.6949261597060697
+  - 0.6516911746454481
+  color_std:
+  - 0.5289286104228307
+  - 0.5434159849256135
+  - 0.4954231932596423
+  file_len: 40287
+  filepath: data/processed/scannet/train/0509_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0509_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_00/scene0509_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_00/scene0509_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_00/scene0509_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_00/scene0509_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_00/scene0509_00_vh_clean_2.0.010000.segs.json
+  scene: 509
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.6882207081613428
+  - 0.7013019414065811
+  - 0.6663357708203995
+  color_std:
+  - 0.5395373527116027
+  - 0.5599500032198135
+  - 0.521177225749872
+  file_len: 37237
+  filepath: data/processed/scannet/train/0509_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0509_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_02/scene0509_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_02/scene0509_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_02/scene0509_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_02/scene0509_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0509_02/scene0509_02_vh_clean_2.0.010000.segs.json
+  scene: 509
+  scene_type: Bathroom
+  sub_scene: 2
+- color_mean:
+  - 0.5166463793918049
+  - 0.444914528445806
+  - 0.3519278702087758
+  color_std:
+  - 0.32048175756785907
+  - 0.24264878889401165
+  - 0.16343172122903524
+  file_len: 311506
+  filepath: data/processed/scannet/train/0515_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0515_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0515_01/scene0515_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0515_01/scene0515_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0515_01/scene0515_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0515_01/scene0515_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0515_01/scene0515_01_vh_clean_2.0.010000.segs.json
+  scene: 515
+  scene_type: Apartment
+  sub_scene: 1
+- color_mean:
+  - 0.41262000885107614
+  - 0.37341638953381706
+  - 0.3431735149980434
+  color_std:
+  - 0.22653461922940668
+  - 0.1988519465807807
+  - 0.17895210752260732
+  file_len: 264862
+  filepath: data/processed/scannet/train/0520_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0520_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0520_01/scene0520_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0520_01/scene0520_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0520_01/scene0520_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0520_01/scene0520_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0520_01/scene0520_01_vh_clean_2.0.010000.segs.json
+  scene: 520
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.563507734376242
+  - 0.46924410628466573
+  - 0.37752200703813743
+  color_std:
+  - 0.3797212561941911
+  - 0.2715556613221703
+  - 0.18862862526853544
+  file_len: 41934
+  filepath: data/processed/scannet/train/0523_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0523_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0523_00/scene0523_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0523_00/scene0523_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0523_00/scene0523_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0523_00/scene0523_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0523_00/scene0523_00_vh_clean_2.0.010000.segs.json
+  scene: 523
+  scene_type: Bathroom
+  sub_scene: 0
+- color_mean:
+  - 0.5080328905755851
+  - 0.4710897329261955
+  - 0.40287650620810084
+  color_std:
+  - 0.366742509245842
+  - 0.3196694983621294
+  - 0.2426866090737539
+  file_len: 104315
+  filepath: data/processed/scannet/train/0524_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0524_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0524_00/scene0524_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0524_00/scene0524_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0524_00/scene0524_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0524_00/scene0524_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0524_00/scene0524_00_vh_clean_2.0.010000.segs.json
+  scene: 524
+  scene_type: Stairs
+  sub_scene: 0
+- color_mean:
+  - 0.5353394750988559
+  - 0.5111836765607085
+  - 0.4781007741353046
+  color_std:
+  - 0.3491622134022378
+  - 0.3261401444424947
+  - 0.2915598609900613
+  file_len: 161549
+  filepath: data/processed/scannet/train/0529_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0529_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0529_02/scene0529_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0529_02/scene0529_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0529_02/scene0529_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0529_02/scene0529_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0529_02/scene0529_02_vh_clean_2.0.010000.segs.json
+  scene: 529
+  scene_type: Kitchen
+  sub_scene: 2
+- color_mean:
+  - 0.6095425669720557
+  - 0.5432268788182579
+  - 0.5182385671315567
+  color_std:
+  - 0.4502872157665862
+  - 0.37349068498138865
+  - 0.36284754638047717
+  file_len: 205543
+  filepath: data/processed/scannet/train/0530_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0530_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0530_00/scene0530_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0530_00/scene0530_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0530_00/scene0530_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0530_00/scene0530_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0530_00/scene0530_00_vh_clean_2.0.010000.segs.json
+  scene: 530
+  scene_type: Hallway
+  sub_scene: 0
+- color_mean:
+  - 0.4392353353301453
+  - 0.31679555543147486
+  - 0.20062946108676033
+  color_std:
+  - 0.29207908211815764
+  - 0.16982205673618547
+  - 0.08178853254545256
+  file_len: 147490
+  filepath: data/processed/scannet/train/0548_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0548_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0548_02/scene0548_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0548_02/scene0548_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0548_02/scene0548_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0548_02/scene0548_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0548_02/scene0548_02_vh_clean_2.0.010000.segs.json
+  scene: 548
+  scene_type: Bedroom / Hotel
+  sub_scene: 2
+- color_mean:
+  - 0.4277675851483587
+  - 0.3748229995685265
+  - 0.2941877550000702
+  color_std:
+  - 0.28220902992365166
+  - 0.2246937607014317
+  - 0.1449876730671481
+  file_len: 150692
+  filepath: data/processed/scannet/train/0554_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0554_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0554_00/scene0554_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0554_00/scene0554_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0554_00/scene0554_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0554_00/scene0554_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0554_00/scene0554_00_vh_clean_2.0.010000.segs.json
+  scene: 554
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.30189376066420737
+  - 0.2456576122184411
+  - 0.19538975592667795
+  color_std:
+  - 0.14816095166082674
+  - 0.108168824063031
+  - 0.07794259801445051
+  file_len: 131648
+  filepath: data/processed/scannet/train/0557_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0557_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0557_00/scene0557_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0557_00/scene0557_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0557_00/scene0557_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0557_00/scene0557_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0557_00/scene0557_00_vh_clean_2.0.010000.segs.json
+  scene: 557
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.588033953285851
+  - 0.5545739488107965
+  - 0.5217303446414517
+  color_std:
+  - 0.4433360242397134
+  - 0.4063875682265041
+  - 0.3651475112512379
+  file_len: 53543
+  filepath: data/processed/scannet/train/0562_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0562_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0562_00/scene0562_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0562_00/scene0562_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0562_00/scene0562_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0562_00/scene0562_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0562_00/scene0562_00_vh_clean_2.0.010000.segs.json
+  scene: 562
+  scene_type: Classroom
+  sub_scene: 0
+- color_mean:
+  - 0.612529803671249
+  - 0.5992433700520823
+  - 0.5677112423202745
+  color_std:
+  - 0.4637242001761255
+  - 0.43807325929825924
+  - 0.3906374487002142
+  file_len: 200528
+  filepath: data/processed/scannet/train/0572_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0572_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0572_01/scene0572_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0572_01/scene0572_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0572_01/scene0572_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0572_01/scene0572_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0572_01/scene0572_01_vh_clean_2.0.010000.segs.json
+  scene: 572
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.5219405391650171
+  - 0.5600452757191081
+  - 0.5880425260721034
+  color_std:
+  - 0.36202171095593766
+  - 0.39197364236096344
+  - 0.42641464593818484
+  file_len: 69656
+  filepath: data/processed/scannet/train/0587_03.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0587_03.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0587_03/scene0587_03.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0587_03/scene0587_03_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0587_03/scene0587_03.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0587_03/scene0587_03_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0587_03/scene0587_03_vh_clean_2.0.010000.segs.json
+  scene: 587
+  scene_type: Living room / Lounge
+  sub_scene: 3
+- color_mean:
+  - 0.3891138466916289
+  - 0.34240970108578267
+  - 0.3068605751505105
+  color_std:
+  - 0.2074333132286341
+  - 0.17118961025874135
+  - 0.14450930951391605
+  file_len: 397588
+  filepath: data/processed/scannet/train/0588_03.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0588_03.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0588_03/scene0588_03.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0588_03/scene0588_03_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0588_03/scene0588_03.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0588_03/scene0588_03_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0588_03/scene0588_03_vh_clean_2.0.010000.segs.json
+  scene: 588
+  scene_type: Living room / Lounge
+  sub_scene: 3
+- color_mean:
+  - 0.3108893425767698
+  - 0.21078019463274203
+  - 0.1507826115945569
+  color_std:
+  - 0.12319733048849121
+  - 0.06007095587445699
+  - 0.03833846892150335
+  file_len: 122338
+  filepath: data/processed/scannet/train/0594_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0594_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0594_00/scene0594_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0594_00/scene0594_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0594_00/scene0594_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0594_00/scene0594_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0594_00/scene0594_00_vh_clean_2.0.010000.segs.json
+  scene: 594
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.34334353908781967
+  - 0.2895386536860409
+  - 0.24399557252899473
+  color_std:
+  - 0.17252020514742908
+  - 0.13974641910135766
+  - 0.11425632423508456
+  file_len: 249494
+  filepath: data/processed/scannet/train/0603_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0603_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0603_01/scene0603_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0603_01/scene0603_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0603_01/scene0603_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0603_01/scene0603_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0603_01/scene0603_01_vh_clean_2.0.010000.segs.json
+  scene: 603
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.4436891525838778
+  - 0.3835894240165814
+  - 0.2886639121193264
+  color_std:
+  - 0.26229479509866926
+  - 0.2169644697023384
+  - 0.15654284065917298
+  file_len: 198417
+  filepath: data/processed/scannet/train/0613_01.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0613_01.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0613_01/scene0613_01.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0613_01/scene0613_01_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0613_01/scene0613_01.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0613_01/scene0613_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0613_01/scene0613_01_vh_clean_2.0.010000.segs.json
+  scene: 613
+  scene_type: Bedroom / Hotel
+  sub_scene: 1
+- color_mean:
+  - 0.41850863982726566
+  - 0.40831612839906783
+  - 0.40564434517323383
+  color_std:
+  - 0.2672942748665915
+  - 0.25158838814741
+  - 0.24976994687064671
+  file_len: 264516
+  filepath: data/processed/scannet/train/0627_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0627_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0627_00/scene0627_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0627_00/scene0627_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0627_00/scene0627_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0627_00/scene0627_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0627_00/scene0627_00_vh_clean_2.0.010000.segs.json
+  scene: 627
+  scene_type: Conference Room
+  sub_scene: 0
+- color_mean:
+  - 0.5620078390730816
+  - 0.5543146877429912
+  - 0.5509264820934316
+  color_std:
+  - 0.4312603502968153
+  - 0.4257766464656863
+  - 0.4247240886305256
+  file_len: 131228
+  filepath: data/processed/scannet/train/0630_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0630_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0630_02/scene0630_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0630_02/scene0630_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0630_02/scene0630_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0630_02/scene0630_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0630_02/scene0630_02_vh_clean_2.0.010000.segs.json
+  scene: 630
+  scene_type: Office
+  sub_scene: 2
+- color_mean:
+  - 0.3988792839657283
+  - 0.38537884196926425
+  - 0.36272509819921445
+  color_std:
+  - 0.2593083195530515
+  - 0.241613476798068
+  - 0.21665570479357732
+  file_len: 156864
+  filepath: data/processed/scannet/train/0634_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0634_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0634_00/scene0634_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0634_00/scene0634_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0634_00/scene0634_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0634_00/scene0634_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0634_00/scene0634_00_vh_clean_2.0.010000.segs.json
+  scene: 634
+  scene_type: Conference Room
+  sub_scene: 0
+- color_mean:
+  - 0.6276424643145447
+  - 0.5901828816103762
+  - 0.5193157903376192
+  color_std:
+  - 0.5056824355707646
+  - 0.45935679143153213
+  - 0.3725288161582549
+  file_len: 241294
+  filepath: data/processed/scannet/train/0642_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0642_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0642_00/scene0642_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0642_00/scene0642_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0642_00/scene0642_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0642_00/scene0642_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0642_00/scene0642_00_vh_clean_2.0.010000.segs.json
+  scene: 642
+  scene_type: Bedroom / Hotel
+  sub_scene: 0
+- color_mean:
+  - 0.6304274538261391
+  - 0.5632775760962432
+  - 0.4775936234572333
+  color_std:
+  - 0.4854192596855295
+  - 0.4193636265630795
+  - 0.3297541600565508
+  file_len: 242536
+  filepath: data/processed/scannet/train/0646_02.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0646_02.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0646_02/scene0646_02.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0646_02/scene0646_02_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0646_02/scene0646_02.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0646_02/scene0646_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0646_02/scene0646_02_vh_clean_2.0.010000.segs.json
+  scene: 646
+  scene_type: Living room / Lounge
+  sub_scene: 2
+- color_mean:
+  - 0.5902580581542348
+  - 0.5077715818614595
+  - 0.3862033244847045
+  color_std:
+  - 0.43897541522089994
+  - 0.34161564613717843
+  - 0.2326909889394807
+  file_len: 254321
+  filepath: data/processed/scannet/train/0673_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0673_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_00/scene0673_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_00/scene0673_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_00/scene0673_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_00/scene0673_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_00/scene0673_00_vh_clean_2.0.010000.segs.json
+  scene: 673
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.5730829766794088
+  - 0.510273439286168
+  - 0.3739537975255831
+  color_std:
+  - 0.4127376603606556
+  - 0.3410204337151197
+  - 0.21159414239550173
+  file_len: 361489
+  filepath: data/processed/scannet/train/0673_05.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0673_05.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_05/scene0673_05.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_05/scene0673_05_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_05/scene0673_05.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_05/scene0673_05_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0673_05/scene0673_05_vh_clean_2.0.010000.segs.json
+  scene: 673
+  scene_type: Apartment
+  sub_scene: 5
+- color_mean:
+  - 0.5124304137099961
+  - 0.4670135483582064
+  - 0.40820495520338995
+  color_std:
+  - 0.3459832898787954
+  - 0.2946126814729341
+  - 0.2366178372756072
+  file_len: 137053
+  filepath: data/processed/scannet/train/0703_00.npy
+  instance_gt_filepath: data/processed/scannet/instance_gt/train/scene0703_00.txt
+  raw_description_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0703_00/scene0703_00.txt
+  raw_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0703_00/scene0703_00_vh_clean_2.ply
+  raw_instance_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0703_00/scene0703_00.aggregation.json
+  raw_label_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0703_00/scene0703_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: /remote-home/share/Datasets/Scannetv2/scans/scene0703_00/scene0703_00_vh_clean_2.0.010000.segs.json
+  scene: 703
+  scene_type: Hallway
+  sub_scene: 0

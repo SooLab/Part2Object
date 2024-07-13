@@ -10,7 +10,11 @@ CURR_QUERY=150
 CUDA_VISIBLE_DEVICES=1 python  main_instance_segmentation.py \
 general.experiment_name="train" \
 general.eval_on_segments=true \
-general.train_on_segments=true
+general.train_on_segments=true \
+data.layer0_path="path of init segments" \
+data.part_path="path of part pseudo label" \
+data.objrct_path="path of object pseudo label" 
+
 
 
 
@@ -20,6 +24,7 @@ general.experiment_name="test" \
 general.project_name="scannet_eval" \
 general.checkpoint='path of ckpt' \
 data/datasets=scannet \
+data.layer0_path="path of init segments" \
 general.train_mode=false \
 general.eval_on_segments=true \
 general.train_on_segments=true \

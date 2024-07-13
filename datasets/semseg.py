@@ -83,7 +83,11 @@ class SemanticSegmentationDataset(Dataset):
             label_offset=0,
             add_clip=False,
             is_elastic_distortion=True,
-            color_drop=0.0
+            color_drop=0.0,
+            layer0_path="",
+            part_path="",
+            objrct_path="",
+            df=0
     ):
         assert task in ["instance_segmentation", "semantic_segmentation"], "unknown task"
 
@@ -151,6 +155,13 @@ class SemanticSegmentationDataset(Dataset):
         self.crop_min_size = crop_min_size
         self.crop_length = crop_length
 
+        self.layer0_path = layer0_path
+        self.part_path = part_path
+        self.objrct_path = objrct_path
+
+        self.df=df
+
+
         self.version1 = cropping_v1
 
         self.random_cuboid = RandomCuboid(self.crop_min_size,
@@ -188,8 +199,10 @@ class SemanticSegmentationDataset(Dataset):
                     print(f'a path {os.path.abspath(database_path)}')
                     print(f"generate {database_path}/{mode}_database.yaml first")
                     exit()
-                
-                self._data.extend(self._load_yaml(database_path / f"{mode}_database.yaml"))
+                if self.df == 0:
+                    self._data.extend(self._load_yaml(database_path / f"{mode}_database.yaml"))
+                else:
+                    self._data.extend(self._load_yaml(f"df_list/{self.df}_database.yaml"))
             else:
                 mode_s3dis = f"Area_{self.area}"
                 if self.mode == "train":
@@ -356,16 +369,19 @@ class SemanticSegmentationDataset(Dataset):
             inds = self.random_cuboid(points)
             points = points[inds]
 
-        # scene_name = self.data[idx]["raw_filepath"].split('/')[-2]
-        seg = np.load("Path_of_layer0_segments")
+        scene_name = self.data[idx]["raw_filepath"].split('/')[-2]
+        seg = np.load(os.path.join(self.layer0_path, f"{scene_name}.pth"))
 
         layer_masks = []
         
         if "train" in self.mode:
 
-
-            part_mask = torch.load("Path of part pseudo labels")
-            obj_mask = torch.load("Path of object pseudo labels")
+            if self.df == 0:
+                part_mask = torch.load(os.path.join(self.part_path, f"{scene_name}.pth"))
+                obj_mask = torch.load(os.path.join(self.objrct_path, f"{scene_name}.pth"))
+            else:
+                part_mask = points[:, 11]
+                obj_mask = points[:, 11]
 
             layer_masks.append(part_mask)
             layer_masks.append(obj_mask)
@@ -376,6 +392,7 @@ class SemanticSegmentationDataset(Dataset):
         layer_masks = np.vstack(layer_masks)
 
         points[:, 10] = points[:, 10] * 0 + 4
+        points[:, 9] = seg
 
         coordinates, color, normals, segments, labels = (
             points[:, :3],

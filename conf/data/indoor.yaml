@@ -19,6 +19,8 @@ num_labels: 20
 add_instance: ${general.add_instance}
 task: ${general.task}
 
+
+
 # data loader
 pin_memory: false
 num_workers: 3
@@ -28,6 +30,10 @@ cache_data: True
 
 # collation
 voxel_size: 0.02
+
+layer0_path: ""
+part_path: ""
+objrct_path: ""
 
 reps_per_epoch: ${general.reps_per_epoch}
 
