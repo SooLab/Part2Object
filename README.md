@@ -112,7 +112,7 @@ sh scripts/scannet/scannet_df.sh
 
 ## Acknowledgement
 
-We thank [MMDetection](https://github.com/open-mmlab/mmdetection/tree/v2.28.1) for their valuable code bases.
+We thank [Mask3D](https://github.com/JonasSchult/Mask3D) for their valuable code bases.
 
 
 If you find Part2Object useful in your research, please consider citing:
