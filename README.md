@@ -117,8 +117,10 @@ We thank [Mask3D](https://github.com/JonasSchult/Mask3D) for their valuable code
 
 If you find Part2Object useful in your research, please consider citing:
 ```
-inproceedings{
-  shi2024Part2Object,
+@article{shi2024part2object,
   title={Part2Object: Hierarchical Unsupervised 3D Instance Segmentation},
+  author={Shi, Cheng and Zhang, Yulin and Yang, Bin and Tang, Jiajin and Ma, Yuexin and Yang, Sibei},
+  journal={arXiv preprint arXiv:2407.10084},
+  year={2024}
 }
 ```
