@@ -99,14 +99,14 @@ sh scripts/scannet/scannet_df.sh
 ### Pseudo Label
 | Methods     | AP25 | AP50 | mAP  |            |
 | ----------- | ---- | ---- | ---- | ---------- |
-| Part2Object | 55.1 | 26.8 | 12.6 | [result](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing) |
+| Part2Object | 55.1 | 26.8 | 12.6 | [result](https://drive.google.com/file/d/17oI2TdmlX0xqHI7JWTc2X7Eqek37oYo2/view?usp=sharing) |
 
 
 # Model
 
 | Methods     | AP50 /  (0% data)|  | AP50 / 1% data|   | AP50 / 5% data|   | AP50 / 10% data|   | AP50 / 20% data|   |
 | ----------- | ------------------------------| -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- | --------------- |
-| Part2Object | 32.6           | [weight](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing)                | 44.1  | [weight](https://drive.google.com/file/d/16Q7KUbr8GSj0psnYGHQId7TN2k6zuIYr/view?usp=sharing)             | 64.2         | [weight](https://drive.google.com/file/d/1ZaOwSOs9m4QyvlSS779s6JZebBGGjqGo/view?usp=sharing)     | 68.0        | [weight](https://drive.google.com/file/d/1uOOcdTPTir9DxQjlSKjc_zekR5wb_vAu/view?usp=sharing)          | 72.1       | [weight](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing)          |
+| Part2Object | 32.6           | [weight](https://drive.google.com/file/d/1TnDlRDkRwKr6m88-cIqHWeOtxI0OrBgd/view?usp=sharing)                | 44.1  | [weight](https://drive.google.com/file/d/16Q7KUbr8GSj0psnYGHQId7TN2k6zuIYr/view?usp=sharing)             | 64.2         | [weight](https://drive.google.com/file/d/1ZaOwSOs9m4QyvlSS779s6JZebBGGjqGo/view?usp=sharing)     | 68.0        | [weight](https://drive.google.com/file/d/1uOOcdTPTir9DxQjlSKjc_zekR5wb_vAu/view?usp=sharing)          | 72.1       | [weight](https://drive.google.com/file/d/19lsRVYrE3rgTObndUnTq-MSb4nO72BLK/view?usp=sharing)          |
 
 
 
